@@ -1,0 +1,2 @@
+﻿pip install flask
+python -m pip install --upgrade pip
