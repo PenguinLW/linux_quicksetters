@@ -1,0 +1,6 @@
+#sudo xed /etc/fstab
+
+#(sudo edit /etc/fstab && press "i") || ( press "Esc" && (":wq!" || ":q!") )
+
+UUID={your-uuid-number}	/media/{user}/{your-uuid-number}	ext4	defaults	0	0
+UUID={your-uuid-number}	/media/penguinl/{your-uuid-number}	ntfs	defaults	0	0
