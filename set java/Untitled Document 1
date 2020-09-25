@@ -1,0 +1,109 @@
+sudo apt-get update && sudo apt-get remove openjdk*
+
+...
+
+sudo mkdir -p /opt/google/chrome/plugins
+sudo ln -s /usr/local/java/jdk1.7.0_51/jre/lib/amd64/libnpjp2.so
+sudo mkdir -p /usr/lib/mozilla/plugins
+sudo ln -s /usr/local/java/jdk1.7.0_51/jre/lib/amd64/libnpjp2.so
+
+(
+cd /opt/google/chrome/plugins
+sudo rm -rf libnpjp2.so
+
+cd /usr/lib/mozilla/plugins
+sudo rm -rf libnpjp2.so
+)
+
+#####################################################################################
+sudo mkdir -p /opt/google/chrome/plugins
+sudo ln -s /usr/local/java/jdk1.8.0_192/jre/lib/amd64/libnpjp2.so
+sudo mkdir -p /usr/lib/mozilla/plugins
+sudo ln -s /usr/local/java/jdk1.8.0_192/jre/lib/amd64/libnpjp2.so
+#####################################################################################
+sudo mkdir -p /opt/google/chrome/plugins
+sudo ln -s /usr/local/java/jdk1.8.0_202/jre/lib/amd64/libnpjp2.so
+sudo mkdir -p /usr/lib/mozilla/plugins
+sudo ln -s /usr/local/java/jdk1.8.0_202/jre/lib/amd64/libnpjp2.so
+#####################################################################################
+sudo gedit /etc/profile
+
+JAVA_HOME=/media/{username}/your/path/jdk1.8.0_161
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+#####################################################################################
+sudo gedit /etc/profile
+
+/media/{username}/your/path/jdk-11.0.1/bin
+JAVA_HOME=/media/{username}/your/path/jdk-11.0.1
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+#####################################################################################
+sudo gedit /etc/profile
+
+/media/{username}/your/path/jdk1.8.0_192/bin
+JAVA_HOME=/media/{username}/your/path/jdk1.8.0_192
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+#####################################################################################
+sudo gedit /etc/profile
+
+/media/{username}/your/path/jdk1.8.0_202/bin
+JAVA_HOME=/media/{username}/your/path/jdk1.8.0_202
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+#####################################################################################
+sudo xed /etc/profile
+
+/home/{username}/your/path/jdk1.8.0_202/bin
+JAVA_HOME=/home/{username}/your/path/jdk1.8.0_202
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+#####################################################################################
+sudo update-alternatives --install "/usr/bin/java" "java" "/media/{username}/your/path/jdk1.8.0_161/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/media/{username}/your/path/jdk1.8.0_161/bin/javac" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/media/{username}/your/path/jdk1.8.0_161/bin/javaws" 1
+
+sudo update-alternatives --set java /media/{username}/your/path/jdk1.8.0_161/bin/java
+sudo update-alternatives --set javac /media/{username}/your/path/jdk1.8.0_161/bin/javac
+sudo update-alternatives --set javaws /media/{username}/your/path/jdk1.8.0_161/bin/javaws
+#####################################################################################
+sudo update-alternatives --install "/usr/bin/java" "java" "/media/{username}/your/path/jdk-11.0.1/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/media/{username}/your/path/jdk-11.0.1/bin/javac" 1
+//sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/media/{username}/your/path/jdk-11.0.1/bin/javaws" 1
+
+sudo update-alternatives --set java /media/{username}/your/path/jdk-11.0.1/bin/java
+sudo update-alternatives --set javac /media/{username}/your/path/jdk-11.0.1/bin/javac
+//sudo update-alternatives --set javaws /media/{username}/your/path/jdk-11.0.1/bin/javaws
+#####################################################################################
+sudo update-alternatives --install "/usr/bin/java" "java" "/media/{username}/your/path/jdk1.8.0_192/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/media/{username}/your/path/jdk1.8.0_192/bin/javac" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/media/{username}/your/path/jdk1.8.0_192/bin/javaws" 1
+
+sudo update-alternatives --set java /media/{username}/your/path/jdk1.8.0_192/bin/java
+sudo update-alternatives --set javac /media/{username}/your/path/jdk1.8.0_192/bin/javac
+//sudo update-alternatives --set javaws /media/{username}/your/path/jdk1.8.0_192/bin/javaws
+#####################################################################################
+sudo update-alternatives --install "/usr/bin/java" "java" "/media/{username}/your/path/jdk1.8.0_202/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/media/{username}/your/path/jdk1.8.0_202/bin/javac" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/media/{username}/your/path/jdk1.8.0_202/bin/javaws" 1
+
+sudo update-alternatives --set java /media/{username}/your/path/jdk1.8.0_202/bin/java
+sudo update-alternatives --set javac /media/{username}/your/path/jdk1.8.0_202/bin/javac
+sudo update-alternatives --set javaws /media/{username}/your/path/jdk1.8.0_202/bin/javaws
+#####################################################################################
+sudo update-alternatives --install "/usr/bin/java" "java" "/home/{username}/your/path/jdk1.8.0_202/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/home/{username}/your/path/jdk1.8.0_202/bin/javac" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/home/{username}/your/path/jdk1.8.0_202/bin/javaws" 1
+
+sudo update-alternatives --set java /home/{username}/Programm/jdk1.8.0_202/bin/java
+sudo update-alternatives --set javac /home/{username}/Programm/jdk1.8.0_202/bin/javac
+sudo update-alternatives --set javaws /home/{username}/Programm/jdk1.8.0_202/bin/javaws
+#####################################################################################
+
+. /etc/profile
