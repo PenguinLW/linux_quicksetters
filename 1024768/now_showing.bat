@@ -1,1 +1,1 @@
-rem "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --incognito "127.0.0.1:5000" "file:///D:/1PenguinL/documents/Ucheba/" "http://lordfilms.bit/27205-agenty-schit-2013.html" "http://lordfilms.bit/26619-mir-dikogo-zapada-2016-1.html" "http://lordfilms.bit/30019-rik-i-morti-2013-2.html"
+rem "C:\Programm\...\app.exe" --incognito "arg0" "..." "arg1"
