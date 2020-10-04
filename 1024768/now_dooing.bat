@@ -1,0 +1,1 @@
+rem "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "127.0.0.1:5000" "file:///D:/1PenguinL/documents/Ucheba/" "file:///D:/1PenguinL/documents/Ucheba/8sem/curs&dipl/docu/++aa.pdf"
