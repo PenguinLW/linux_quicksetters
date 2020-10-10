@@ -2,6 +2,7 @@ sudo update-alternatives --install "/usr/bin/adb" "adb" "/home/penguinl/Programm
 sudo update-alternatives --set adb /home/penguinl/Programm/android-config/tools/platform-tools/adb
 cd .. && cd tools/platform-tools/build/scrcpy-1.16
 #sudo apt install meson
+#https://github.com/Genymobile/scrcpy/blob/master/BUILD.md
 sudo apt install ffmpeg libsdl2-2.0-0 -y
 sudo apt install gcc git pkg-config meson ninja-build \
                  libavcodec-dev libavformat-dev libavutil-dev \
