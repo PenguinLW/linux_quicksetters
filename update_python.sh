@@ -17,8 +17,4 @@ sudo apt-get install python3.6-dev -y
 sudo apt-get install python3.7-dev -y
 sudo apt-get install python3.8-dev -y
 sudo apt-get install python3.9-dev -y
-sudo apt remove python-pip -y
-sudo apt remove python3-pip -y
-sudo apt install python-pip -y
-sudo apt install python3-pip -y
-
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 6
