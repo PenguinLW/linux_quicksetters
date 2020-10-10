@@ -1,3 +1,3 @@
-cd .. && cd sdk-tools-linux-4333796/platform-tools/
+cd .. && cd tools/platform-tools/
 ./adb kill-server
 ./adb start-server
