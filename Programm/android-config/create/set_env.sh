@@ -13,4 +13,4 @@ sudo update-alternatives --set meson /usr/local/bin/meson
 
 sudo apt install cmake -y
 
-meson build --buildtype release --strip -Db_lto=true  -Dprebuilt_server=../scrcpy-server-v1.16.jar
+meson build --buildtype release --strip -Db_lto=true  -Dprebuilt_server=../../scrcpy-server-v1.16.jar
