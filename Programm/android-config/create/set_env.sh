@@ -5,4 +5,6 @@ cd .. && cd tools/platform-tools/build/scrcpy-1.16
 sudo pip3 install meson
 sudo update-alternatives --install "/usr/bin/meson" "meson" "/usr/local/bin/meson" 1
 sudo update-alternatives --set meson /usr/local/bin/meson
+sudo apt install cmake -y
+
 meson build --buildtype release --strip -Db_lto=true  -Dprebuilt_server=../scrcpy-server-v1.16.jar
