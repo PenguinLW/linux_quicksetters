@@ -4,3 +4,8 @@ sudo apt-get install python3.6
 sudo apt-get install python3.7
 sudo apt-get install python3.8
 sudo apt-get install python3.9
+which python3.5#default version
+which python3.6
+which python3.7
+which python3.8
+which python3.9
