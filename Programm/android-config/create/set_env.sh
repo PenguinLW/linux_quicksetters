@@ -17,3 +17,8 @@ sudo apt install cmake -y
 meson build --buildtype release --strip -Db_lto=true  -Dprebuilt_server=../../scrcpy-server-v1.16.jar
 cd build && sudo ninja
 sudo ninja install
+
+sudo update-alternatives --install /usr/bin/scrcpy scrcpy /usr/local/bin/scrcpy 1
+sudo update-alternatives --set scrcpy /usr/local/bin/scrcpy
+sudo update-alternatives --install /usr/bin/scrcpy-noconsole scrcpy-noconsole /usr/local/bin/scrcpy 1
+sudo update-alternatives --set scrcpy-noconsole /usr/local/bin/scrcpy
