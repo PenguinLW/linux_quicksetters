@@ -9,3 +9,7 @@ which python3.6
 which python3.7
 which python3.8
 which python3.9
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 3
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 4
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 5
