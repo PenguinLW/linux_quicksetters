@@ -2,7 +2,10 @@
 #sudo apt-get install openvpn network-manager-openvpn-gnome
 sudo apt-get install network-manager-openvpn-gnome network-manager-vpnc-gnome -y
 sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp
-sudo apt update
+
+sudo apt-get update && sudo apt-get upgrade
+sudo apt update && sudo apt upgrade -y
+
 sudo apt install network-manager-l2tp network-manager-l2tp-gnome -y
 sudo apt-get install strongswan-plugin-openssl -y
 sudo service xl2tpd stop
