@@ -17,10 +17,10 @@ root.grab_keyboard(True,
                    X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
 
 subprocess.call('xset dpms force off'.split())
-p = subprocess.Popen('gnome-screensaver-command --deactivate'.split())#gnome-screensaver-command --lock
+# p = subprocess.Popen('gnome-screensaver-command --deactivate'.split())#gnome-screensaver-command --lock
 time.sleep(1)
 
-while True:
-    print(display.next_event())
-    p.terminate()
-    break
+# while True:
+#     display.next_event()
+#     # p.terminate()
+#     break
