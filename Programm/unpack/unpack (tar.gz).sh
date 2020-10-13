@@ -1,1 +1,4 @@
-tar -xvzf /home/{username}/Escritorio/archive.tar.gz && mv {FolderFromArchive} /home/{username}/path_to/'{your} {folder}' && rm /home/{username}/Escritorio/archive.tar.gz
+#tar -xvzf /home/{username}/Escritorio/archive.tar.gz && mv {FolderFromArchive} /home/{username}/path_to/'{your} {folder}' && rm /home/{username}/Escritorio/archive.tar.gz
+#tar -xvzf /home/penguinl/Escritorio/jdk-8u261-linux-x64.tar.gz && mv jdk1.8.0_261 /home/penguinl/Programm/ && rm /home/penguinl/Escritorio/jdk-8u261-linux-x64.tar.gz
+#tar -xvzf /home/penguinl/Programm/android-config/tools/platform-tools/build/scrcpy-1.16.tar.gz && mv scrcpy-1.16 /home/penguinl/Programm/android-config/tools/platform-tools/build/ && rm /home/penguinl/Programm/android-config/tools/platform-tools/build/scrcpy-1.16.tar.gz
+#tar -xvzf /home/penguinl/Escritorio/pycharm-community-2020.2.3.tar.gz && mv pycharm-community-2020.2.3 /home/penguinl/Programm/pycharm-community-2020.2.3 && rm //home/penguinl/Escritorio/pycharm-community-2020.2.3.tar.gz
