@@ -29,3 +29,5 @@ sudo update-alternatives --install /usr/bin/adb_listofd adb_listofd /home/pengui
 sudo update-alternatives --set adb_listofd /home/penguinl/Programm/android-config/src/adb_listofd.sh
 sudo update-alternatives --install /usr/bin/adb_restart adb_restart /home/penguinl/Programm/android-config/src/adb_restart.sh 1
 sudo update-alternatives --set adb_restart /home/penguinl/Programm/android-config/src/adb_restart.sh
+sudo update-alternatives --install /usr/bin/adbd_restart adbd_restart /home/penguinl/Programm/android-config/src/adbd_restart.sh 1
+sudo update-alternatives --set adbd_restart /home/penguinl/Programm/android-config/src/adbd_restart.sh
