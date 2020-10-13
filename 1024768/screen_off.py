@@ -1,4 +1,5 @@
 # https://habr.com/ru/post/118625/
+# http://manpages.ubuntu.com/manpages/trusty/man1/gnome-screensaver-command.1.html
 # sudo apt-get install python python-xlib
 # sudo apt-get install python python3-xlib
 # sudo apt install gnome-screensaver -y
