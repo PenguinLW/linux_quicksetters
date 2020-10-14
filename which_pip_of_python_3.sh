@@ -1,4 +1,3 @@
-
 sudo apt install python-pip -y
 which python
 python -V

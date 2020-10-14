@@ -1,4 +1,5 @@
-echo "echo 119 > /proc/sys/net/ipv4/ip_default_ttl & rm ttl.sh" > ttl.sh
+#echo "echo 119 > /proc/sys/net/ipv4/ip_default_ttl & rm ttl.sh" > ttl.sh
+echo "echo 57 > /proc/sys/net/ipv4/ip_default_ttl & rm ttl.sh" > ttl.sh
 chmod +x ttl.sh
 sudo ./ttl.sh
 #1) sudo gedit /root/ttl.sh
