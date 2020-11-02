@@ -17,16 +17,16 @@ adb shell ls -l /system/
 adb shell ls /data/system/users/0/
 adb shell ls -l /data/system/users/0/
 pause
-adb pull /system/build.prop e:\Programm\android-config\backup\
-adb pull /system/build.prop.bak e:\Programm\android-config\backup\
-adb pull /system/build.prop e:\Programm\android-config\resources\
-adb pull /system/build.prop.bak e:\Programm\android-config\resources\
-adb pull /data/system/users/0/settings_global.xml e:\Programm\android-config\backup\
-adb pull /data/system/users/0/settings_secure.xml e:\Programm\android-config\backup\
-adb pull /data/system/users/0/settings_system.xml e:\Programm\android-config\backup\
-adb pull /data/system/users/0/settings_global.xml e:\Programm\android-config\resources\
-adb pull /data/system/users/0/settings_secure.xml e:\Programm\android-config\resources\
-adb pull /data/system/users/0/settings_system.xml e:\Programm\android-config\resources\
+adb pull /system/build.prop c:\Programm\android-config\backup\
+adb pull /system/build.prop.bak c:\Programm\android-config\backup\
+adb pull /system/build.prop c:\Programm\android-config\resources\
+adb pull /system/build.prop.bak c:\Programm\android-config\resources\
+adb pull /data/system/users/0/settings_global.xml c:\Programm\android-config\backup\
+adb pull /data/system/users/0/settings_secure.xml c:\Programm\android-config\backup\
+adb pull /data/system/users/0/settings_system.xml c:\Programm\android-config\backup\
+adb pull /data/system/users/0/settings_global.xml c:\Programm\android-config\resources\
+adb pull /data/system/users/0/settings_secure.xml c:\Programm\android-config\resources\
+adb pull /data/system/users/0/settings_system.xml c:\Programm\android-config\resources\
 pause
 adb shell rm /data/property/persist.service.adb.enable
 adb shell rm /data/property/persist.sys.usb.config
@@ -49,11 +49,11 @@ pause
 echo "settings_global.xml"
 echo "<setting id="168" name="adb_enabled" value="1" package="android" />"
 pause
-adb push e:\Programm\android-config\s\resourcesrc\build.prop /system/
-adb push e:\Programm\android-config\resources\build.prop.bak /system/
-adb push e:\Programm\android-config\resources\settings_global.xml /data/system/users/0/
-adb push e:\Programm\android-config\resources\settings_secure.xml /data/system/users/0/
-adb push e:\Programm\android-config\resources\settings_system.xml /data/system/users/0/
+adb push c:\Programm\android-config\s\resourcesrc\build.prop /system/
+adb push c:\Programm\android-config\resources\build.prop.bak /system/
+adb push c:\Programm\android-config\resources\settings_global.xml /data/system/users/0/
+adb push c:\Programm\android-config\resources\settings_secure.xml /data/system/users/0/
+adb push c:\Programm\android-config\resources\settings_system.xml /data/system/users/0/
 adb shell ls /system/
 adb shell ls -l /system/
 adb shell ls /data/system/users/0/

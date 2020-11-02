@@ -1,12 +1,12 @@
-cd .. && cd e:\Programm\android-config\sdk-tools-windows-4333796\platform-tools\
+cd .. && cd c:\Programm\android-config\sdk-tools-windows-4333796\platform-tools\
 adb root
 adb shell mount -o remount -rw /data/
 adb shell cat /proc/mounts
 adb shell ls /data/misc/adb/
 adb shell ls -l /data/misc/adb/
 pause
-copy c:\Users\diana\.android\adbkey.pub e:\Programm\android-config\backup\ /y
-adb pull /data/misc/adb/adb_keys e:\Programm\android-config\backup\
+copy c:\Users\diana\.android\adbkey.pub c:\Programm\android-config\backup\ /y
+adb pull /data/misc/adb/adb_keys c:\Programm\android-config\backup\
 adb push c:\Users\diana\.android\adbkey.pub /data/misc/adb/adb_keys
 adb shell ls /data/misc/adb/
 adb shell ls -l /data/misc/adb/
