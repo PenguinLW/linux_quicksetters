@@ -1,0 +1,1 @@
+scrcpy-noconsole -s 192.168.0.8:5555
