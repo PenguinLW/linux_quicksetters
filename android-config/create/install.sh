@@ -2,3 +2,4 @@
 cd .. && cd tools/tools/bin/
 ./sdkmanager --list
 ./sdkmanager "platform-tools" "platforms;android-23"
+./sdkmanager "platform-tools" "platforms;android-26"
