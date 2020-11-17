@@ -1,1 +1,1 @@
-sh -c "adbd_restart && reboot"
+sh -c "adbd_restart & reboot"
