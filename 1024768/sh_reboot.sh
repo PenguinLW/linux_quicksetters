@@ -1,0 +1,1 @@
+sh -c "adbd_restart && reboot"
