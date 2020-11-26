@@ -47,7 +47,7 @@ Latex_etc/*
 ####not_unix
 Zapros_parolya.bat
 
-1024/*.bat
+1024768/*.bat
 
 android_config/create/*.bat
 
