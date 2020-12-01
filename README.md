@@ -4,9 +4,9 @@ get_all.sh
 
 local_build.sh
 ####unix:
-1024/*.sh
+1024768/*.sh
 
-1024/*.py
+1024768/*.py
 
 android_config/create/*.sh
 
