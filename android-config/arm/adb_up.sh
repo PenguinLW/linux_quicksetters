@@ -21,11 +21,18 @@ update-alternatives --install /usr/bin/adb_restart adb_restart /root/Programm/an
 
 update-alternatives --set adb_restart /root/Programm/android-config/src/adb_restart.sh
 
-update-alternatives --install /usr/bin/adbd_restart adbd_restart /root/Programm/android-config/src/adbd_restart.sh 1
+#update-alternatives --install /usr/bin/adbd_restart adbd_restart /root/Programm/android-config/src/adbd_restart.sh 1
 
-update-alternatives --set adbd_restart /root/Programm/android-config/src/adbd_restart.sh
+#update-alternatives --set adbd_restart /root/Programm/android-config/src/adbd_restart.sh
+update-alternatives --install /usr/bin/adbd_restart adbd_restart /root/Programm/android-config/arm/src/adbd_restart.sh 1
+
+update-alternatives --set adbd_restart /root/Programm/android-config/arm/src/adbd_restart.sh
+
 
 chmod +x /root/Programm/android-config/src/*.sh
+
+
+chmod +x /root/Programm/android-config/arm/src/*.sh
 
 #which adb
 
