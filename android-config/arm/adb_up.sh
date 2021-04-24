@@ -27,7 +27,7 @@ update-alternatives --set adbd_restart /root/Programm/android-config/src/adbd_re
 
 chmod +x /root/Programm/android-config/src/*.sh
 
-which adb
+#which adb
 
 which adb_listofd
 
