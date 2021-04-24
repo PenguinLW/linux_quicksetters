@@ -15,6 +15,10 @@ update-alternatives --install /usr/bin/show_env show_env /root/Programm/arm/show
 
 update-alternatives --set show_env /root/Programm/arm/show_env.sh
 
+update-alternatives --install /usr/bin/adb_showtard adb_showtard /root/Programm/android-config/arm/src/adb_showtard.sh 1
+
+update-alternatives --set adb_showtard /root/Programm/android-config/arm/src/adb_showtard.sh
+
 update-alternatives --install /usr/bin/adbd_restart adbd_restart /root/Programm/android-config/arm/src/adbd_restart.sh 1
 
 update-alternatives --set adbd_restart /root/Programm/android-config/arm/src/adbd_restart.sh
