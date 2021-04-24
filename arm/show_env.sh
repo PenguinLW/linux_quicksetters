@@ -3,6 +3,7 @@ whoami
 
 uname -m #armv71
 
+pwd
 java -version
 
 javac -version
