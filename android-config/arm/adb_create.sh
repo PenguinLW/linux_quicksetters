@@ -1,3 +1,4 @@
+#in target os
 #add-apt-repository ppa:upubuntu-com/sdk #¿?
 
 apt update -y && apt-get update -y
