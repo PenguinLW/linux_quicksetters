@@ -1,4 +1,4 @@
-
+#in target os
 cd /root/Programm/android-config
 
 #cd /root/Programm/android-config/create
