@@ -20,3 +20,7 @@ update-alternatives --set adb_showtard /root/Programm/android-config/arm/src/adb
 update-alternatives --install /usr/bin/adbd_restart adbd_restart /root/Programm/android-config/arm/src/adbd_restart.sh 1
 
 update-alternatives --set adbd_restart /root/Programm/android-config/arm/src/adbd_restart.sh
+
+update-alternatives --install /usr/bin/y5_connect y5_connect /root/Programm/1024768/arm/y5_connect.sh 1
+
+update-alternatives --set y5_connect /root/Programm/1024768/arm/y5_connect.sh
