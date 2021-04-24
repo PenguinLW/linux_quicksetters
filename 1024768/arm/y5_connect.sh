@@ -1,4 +1,4 @@
-#in target os
+
 #adb -s <your-device-id> tcpip 5555
 #adb connect <your-device-id>
 
