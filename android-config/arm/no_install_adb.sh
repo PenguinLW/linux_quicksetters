@@ -1,3 +1,4 @@
+#in target os
 apt update -y && apt-get update -y
 
 apt upgrade -y && apt-get upgrade -y
