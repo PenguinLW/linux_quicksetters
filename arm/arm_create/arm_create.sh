@@ -7,4 +7,6 @@ apt install wget openssl-tool proot -y && hash -r && wget https://raw.githubuser
 
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/de-apt-xfce4.sh --no-check-certificate && bash de-apt-xfce4.sh
 
+update-alternatives --set arm_up /root/Programm/arm_create/arm_up.sh
+
 ./start-ubuntu.sh
