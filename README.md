@@ -8,9 +8,13 @@ local_build.sh
 
 1024768/*.py
 
+arm/*.sh
+arm/arm_create/*.sh
 android_config/create/*.sh
 
 android_config/src/*.sh
+android_config/arm/*.sh
+android_config/arm/src/*.sh
 
 update_upgrade_allp.sh - install all update, with sudo
 
