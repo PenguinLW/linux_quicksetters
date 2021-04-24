@@ -1,6 +1,6 @@
 
 
-
+#in target os
 #/local
 
 whoami
