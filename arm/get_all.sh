@@ -3,7 +3,7 @@ git clone -o linux_quicksetters https://github.com/Kovalsky95/linux_quicksetters
 
 #rm -d -r -f Programm & mkdir Programm
 
-cp -R linux_quicksetters/* Programm/
+cp -R linux_quicksetters/* /root/Programm/
 
 rm -d -r -f linux_quicksetters 
 
