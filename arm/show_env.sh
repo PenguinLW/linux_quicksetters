@@ -1,4 +1,4 @@
-
+#in target os
 whoami
 
 uname -m #armv71
