@@ -42,6 +42,14 @@ which adb_restart
 
 which adbd_restart
 
+ls -al /bin/
+
+ls -al /usr/bin/
+
+ls -al /etc/alternatives/
+
+cat /etc/profile
+
 #update-alternatives --remove adb /root/Programm/android-config/tools/platform-tools/adb
 
 #update-alternatives --remove adb_listofd /root/Programm/android-config/src/adb_listofd.sh
