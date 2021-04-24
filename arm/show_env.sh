@@ -17,7 +17,7 @@ which adb_listofd
 which adb_restart
 
 which adbd_restart
-ls -al Programm
+ls -al /root/Programm/
 
 ls -al /bin/
 
