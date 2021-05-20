@@ -63,6 +63,7 @@ update-alternatives --set hw_connect /root/Programm/1024768/arm/hw_connect.sh
 chmod +x /root/Programm/arm/*.sh
 
 chmod +x /root/Programm/1024768/*.sh
+chmod +z /root/Programm/1024768/*.py
 
 chmod +x /root/Programm/1024768/arm/*.sh
 
