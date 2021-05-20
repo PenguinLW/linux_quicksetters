@@ -57,7 +57,7 @@ update-alternatives --set y5_unlock_screen /root/Programm/1024768/y5_unlock_scre
 
 update-alternatives --install /usr/bin/hw_connect hw_connect /root/Programm/1024768/arm/hw_connect.sh 1
 
-update-alternatives --set y5_connect /root/Programm/1024768/arm/hw_connect.sh
+update-alternatives --set hw_connect /root/Programm/1024768/arm/hw_connect.sh
 
 
 chmod +x /root/Programm/arm/*.sh
