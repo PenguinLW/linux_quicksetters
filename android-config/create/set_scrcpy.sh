@@ -11,6 +11,16 @@ sudo update-alternatives --set meson /usr/local/bin/meson
 
 sudo apt install cmake -y
 
-meson build --buildtype release --strip -Db_lto=true  -Dprebuilt_server=../../scrcpy-server-v1.16.jar
+#pip3 install flask
+sudo apt install ninja -y
+wget https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip
+sudo unzip ninja-linux.zip -d /usr/local/bin/
+sudo update-alternatives --install /usr/bin/ninja ninja /usr/local/bin/ninja 1 --force
+#/usr/bin/ninja --version
+
+wget https://github.com/Genymobile/scrcpy/releases/download/v1.17/scrcpy-server-v1.17
+mv scrcpy-server-v1.17 /home/penguinl/Programm/android-config/tools/platform-tools/scrcpy-server-v1.17.jar
+
+meson build --buildtype release --strip -Db_lto=true  -Dprebuilt_server=../../scrcpy-server-v1.17.jar
 cd build && sudo ninja
 sudo ninja install
