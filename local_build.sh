@@ -1,1 +1,1 @@
-cp -r /home/penguinl/Documentos/PyCharmProjects/linux_quicksetters/* /home/penguinl/Programm/
+cp -r /home/penguinl/Documentos/PycharmProjects/linux_quicksetters/* /home/penguinl/Programm/
