@@ -18,7 +18,7 @@ sudo mkdir -p /usr/lib/mozilla/plugins
 sudo ln -s /usr/local/java/jdk1.8.0_202/jre/lib/amd64/libnpjp2.so
 #####################################################################################
 
-echo "
+sudo echo "
 JAVA_HOME=/home/penguinl/jdk1.8.0_291
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
 export JAVA_HOME
