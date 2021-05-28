@@ -13,9 +13,9 @@ sudo apt-get update && sudo apt-get remove openjdk*
 
 #####################################################################################
 sudo mkdir -p /opt/google/chrome/plugins
-sudo ln -s /usr/local/java/jdk1.8.0_202/jre/lib/amd64/libnpjp2.so
+sudo ln -s /usr/local/java/jdk1.8.0_202/jre/lib/amd64/libnpjp2.so /opt/google/chrome/plugins
 sudo mkdir -p /usr/lib/mozilla/plugins
-sudo ln -s /usr/local/java/jdk1.8.0_202/jre/lib/amd64/libnpjp2.so
+sudo ln -s /usr/local/java/jdk1.8.0_202/jre/lib/amd64/libnpjp2.so /usr/lib/mozilla/plugins
 #####################################################################################
 
 sudo echo "
