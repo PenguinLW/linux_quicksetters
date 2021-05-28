@@ -11,7 +11,7 @@ which python3.5
 #which python3.8
 #which python3.9
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
+#sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
 #sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 3
 #sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 4
 #sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 5
@@ -23,3 +23,6 @@ sudo apt-get install python3.5-dev -y
 
 
 sudo apt-get upgrade python3.6 -y
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
+#set pip?pip3, make scrcpy ..
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 3
