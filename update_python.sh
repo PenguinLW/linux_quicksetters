@@ -34,7 +34,7 @@ sudo apt-get install python3.7
 sudo apt-get install python3-dev python3-setuptools python3-wheel -y
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 5
 
-
+#sudo systemctl restart display-manager
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 6
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 7
 #sudo apt-get install cinnamon cinnamon-common --reinstall
