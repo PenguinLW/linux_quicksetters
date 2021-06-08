@@ -40,3 +40,4 @@ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 7
 #sudo apt-get install cinnamon cinnamon-common --reinstall
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 8
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 9
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 10
