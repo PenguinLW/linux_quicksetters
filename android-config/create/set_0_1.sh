@@ -99,6 +99,10 @@ cat /data/system/users/0/settings_secure.xml
 cat /data/system/users/0/settings_system.xml
 
 
+#sed -i 's/ro.build.type=userdebug//g' system/build.prop
+#sed -i 's/ro.build.type=userdebug//g' system/build.prop.bak
+#sed -i 's/ro.build.type=user/ro.build.type=userdebug/g' system/build.prop
+#sed -i 's/ro.build.type=user/ro.build.type=userdebug/g' system/build.prop.bak
 echo "
 ro.build.type=userdebug
 persist.service.adb.enable=1
