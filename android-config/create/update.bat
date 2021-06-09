@@ -6,4 +6,5 @@ rem fastboot update c:\Programm\android-config\resources\SuperSU+PRO+v2.82SR5.zi
 
 rem in TWRP touch "Advanced + ADB Sideload"
 rem adb -s 0123456789ABCDEF sideload G:\HomTom_mod_v1.7.zip
+rem adb -s 0123456789ABCDEF sideload G:\SuperSU+PRO+v2.82SR5.zip
 pause
