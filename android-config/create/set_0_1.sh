@@ -98,11 +98,26 @@ cat /data/system/users/0/settings_secure.xml
 
 cat /data/system/users/0/settings_system.xml
 
+
+echo "
+ro.build.type=userdebug
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb" >> system/build.prop
+
+
+echo "
+ro.build.type=userdebug
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb" >> system/build.prop.bak
+
+
 #echo "persist.service.adb.enable=1
 
-persist.service.debuggable=1
+#persist.service.debuggable=1
 
-persist.sys.usb.config=mtp,adb" >> /system/build.prop
+#persist.sys.usb.config=mtp,adb" >> /system/build.prop
 
 echo "<setting id=\"168\" name=\"adb_enabled\" value=\"1\" package=\"android\" />" >> /data/system/users/0/settings_global.xml
 
