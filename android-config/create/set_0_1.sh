@@ -135,6 +135,12 @@ echo "<setting id=\"168\" name=\"adb_enabled\" value=\"1\" package=\"android\" /
 
 #adb push c:\Programm\android-config\resources\settings_system.xml /data/system/users/0/
 
+
+
+#adb push C:/Users/_penguinl/.android/adbkey.pub /data/misc/adb/adb_keys
+
+
+
 ls /system/
 
 ls -l /system/
