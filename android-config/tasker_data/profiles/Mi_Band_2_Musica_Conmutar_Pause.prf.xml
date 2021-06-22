@@ -1,0 +1,37 @@
+<TaskerData sr="" dvi="1" tv="5.11.14">
+	<Profile sr="prof31" ve="2">
+		<cdate>1619596514397</cdate>
+		<clp>true</clp>
+		<edate>1614766508256</edate>
+		<id>31</id>
+		<limit>true</limit>
+		<mid0>8</mid0>
+		<nme>Mi_Band_2_Musica_Conmutar_Pause</nme>
+		<Event sr="con0" ve="2">
+			<code>599</code>
+			<Str sr="arg0" ve="3">mb2_tap2</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Event>
+	</Profile>
+	<Task sr="task8">
+		<cdate>1555507195663</cdate>
+		<edate>1614766508256</edate>
+		<id>8</id>
+		<nme>Musica Conmutar Pause</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="3"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.grif.vmp.ui.activity.MainActivity</appClass>
+				<appPkg>com.grif.vmp</appPkg>
+				<label>VMP</label>
+			</App>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

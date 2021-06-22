@@ -1,0 +1,14 @@
+<TaskerData sr="" dvi="1" tv="5.11.14">
+	<Task sr="task11">
+		<cdate>1551584259964</cdate>
+		<edate>1614766396824</edate>
+		<id>11</id>
+		<nme>Zona Wifi Abrir O Salir</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>113</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

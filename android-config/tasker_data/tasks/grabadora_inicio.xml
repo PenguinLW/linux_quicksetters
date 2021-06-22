@@ -1,0 +1,47 @@
+<TaskerData sr="" dvi="1" tv="5.11.14">
+	<Task sr="task17">
+		<cdate>1607431029577</cdate>
+		<edate>1619623379684</edate>
+		<id>17</id>
+		<nme>grabadora_inicio</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="4"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>383983483</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.meteotask.extra.INT_VERSION_CODE>97</com.balda.meteotask.extra.INT_VERSION_CODE>
+					<com.balda.meteotask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.meteotask.extra.INT_VERSION_CODE-type>
+					<com.balda.meteotask.extra.OPERATION>3</com.balda.meteotask.extra.OPERATION>
+					<com.balda.meteotask.extra.OPERATION-type>java.lang.Integer</com.balda.meteotask.extra.OPERATION-type>
+					<com.balda.touchtask.extra.AUDIO>5</com.balda.touchtask.extra.AUDIO>
+					<com.balda.touchtask.extra.AUDIO-type>java.lang.Integer</com.balda.touchtask.extra.AUDIO-type>
+					<com.balda.touchtask.extra.DURATION></com.balda.touchtask.extra.DURATION>
+					<com.balda.touchtask.extra.DURATION-type>java.lang.String</com.balda.touchtask.extra.DURATION-type>
+					<com.balda.touchtask.extra.RESOLUTION>true</com.balda.touchtask.extra.RESOLUTION>
+					<com.balda.touchtask.extra.RESOLUTION-type>java.lang.Boolean</com.balda.touchtask.extra.RESOLUTION-type>
+					<com.balda.touchtask.extra.TYPE>0</com.balda.touchtask.extra.TYPE>
+					<com.balda.touchtask.extra.TYPE-type>java.lang.Integer</com.balda.touchtask.extra.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Action: Start video</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ttpath
+File path
+Screenshot or video path&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.touchtask</Str>
+			<Str sr="arg2" ve="3">com.balda.touchtask.ui.FireScreenCapture</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

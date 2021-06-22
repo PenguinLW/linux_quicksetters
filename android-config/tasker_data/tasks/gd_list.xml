@@ -1,0 +1,72 @@
+<TaskerData sr="" dvi="1" tv="5.11.14">
+	<Task sr="task15">
+		<cdate>1614482190847</cdate>
+		<edate>1614766106948</edate>
+		<id>15</id>
+		<nme>gd_list</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>327</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%gd_account
+Account
+Account that was signed in to Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">diana1997525@gmail.com</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>324</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%gd_id()
+File ID
+Unique ID for the file on Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%gd_md5()
+MD5
+MD5 checksum of the file on Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%gd_mimetype()
+Mime Type
+Type of the file on Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%gd_time()
+File Time
+The last time the file was modified by anyone. Expressed in Seconds since Epoch (similar to %TIMES)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%gd_name()
+File Name
+Name of the file on Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%gd_size()
+File Size
+Size of the file (in bytes) on Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%gd_weburl()
+Web URL
+URL that can be used to show the file on your Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">diana1997525@gmail.com</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>550</code>
+			<Str sr="arg0" ve="3">GD List %gd_account</Str>
+			<Str sr="arg1" ve="3">%gd_id()
+%gd_name()
+%gd_size()
+%gd_time()
+%gd_md5()
+%gd_mimetype()
+%gd_weburl()</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>322</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Tasker</Str>
+			<Str sr="arg1" ve="3">diana1997525@gmail.com</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>

@@ -1,0 +1,81 @@
+<TaskerData sr="" dvi="1" tv="5.12.22">
+	<Profile sr="prof30" ve="2">
+		<cdate>1624367908893</cdate>
+		<clp>true</clp>
+		<edate>1624372325781</edate>
+		<flags>8</flags>
+		<id>30</id>
+		<limit>true</limit>
+		<mid0>29</mid0>
+		<nme>Cada 2m</nme>
+		<Time sr="con0">
+			<fh>-1</fh>
+			<fm>-1</fm>
+			<rep>1</rep>
+			<repval>2</repval>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
+	<Task sr="task29">
+		<cdate>1624367095685</cdate>
+		<edate>1624372299087</edate>
+		<id>29</id>
+		<nme>tcpip</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>385</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">setprop service.adb.tcp.port 5555 &amp;&amp; stop adbd &amp;&amp; start adbd</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>171</code>
+			<Int sr="arg0" val="9000"/>
+			<Int sr="arg1" val="300"/>
+			<Int sr="arg2" val="40"/>
+			<Int sr="arg3" val="5"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>365</code>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">TermuxCommand(exec setprop service.adb.tcp.port 5555 &amp;&amp; stop adbd &amp;&amp; start adbd,,,true)</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>999835356</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.ADBPlugin.extra.STRING_MESSAGE>{"ip":"localhost","port":"5555","command":"su -c \"setprop service.adb.tcp.port 5555 &amp;&amp; stop adbd &amp;&amp; start adbd\"","timeout":"50","ctrl_c":false}</com.ADBPlugin.extra.STRING_MESSAGE>
+					<com.ADBPlugin.extra.STRING_MESSAGE-type>java.lang.String</com.ADBPlugin.extra.STRING_MESSAGE-type>
+					<com.ADBPlugin.yourcondition.extra.INT_VERSION_CODE>6302</com.ADBPlugin.yourcondition.extra.INT_VERSION_CODE>
+					<com.ADBPlugin.yourcondition.extra.INT_VERSION_CODE-type>java.lang.Integer</com.ADBPlugin.yourcondition.extra.INT_VERSION_CODE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>localhost:5555
+su -c "setprop service.adb.tcp</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%output()
+                                Raw terminal output.
+                                All the output given by the console after executing your command.
+                                Replace '()' with the index of the output, so, %output1, %output2 and so on.
+                                You can also iterate over the output with For by putting %output() in Items.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errors
+                                Stacktrace of errors if they occur.
+                                'Continue Task After Error' must be enabled to use this result.
+                                Comparable to logcat&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.ADBPlugin.extra.STRING_MESSAGE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.ADBPlugin</Str>
+			<Str sr="arg2" ve="3">com.ADBPlugin.ui.EditActivity</Str>
+			<Int sr="arg3" val="60"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>

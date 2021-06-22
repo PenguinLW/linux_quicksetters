@@ -1,0 +1,41 @@
+<TaskerData sr="" dvi="1" tv="5.11.14">
+	<Task sr="task45">
+		<cdate>1619601482802</cdate>
+		<edate>1619625399579</edate>
+		<id>45</id>
+		<nme>tsshd.sh</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>365</code>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">TermuxCommand(sshd,,,true)</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>365</code>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">TermuxCommand(sshd,,,true)</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>365</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">TermuxCommand(exec chmod +x /storage/648D-16E9/sshd.sh.  &amp;&amp; . /storage/648D-16E9/sshd.sh,,,false)</Str>
+		</Action>
+	</Task>
+</TaskerData>

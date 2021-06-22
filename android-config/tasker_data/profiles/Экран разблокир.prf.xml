@@ -1,0 +1,27 @@
+﻿<TaskerData sr="" dvi="1" tv="5.11.14">
+	<Profile sr="prof43" ve="2">
+		<cdate>1619596572609</cdate>
+		<clp>true</clp>
+		<edate>1620312592549</edate>
+		<flags>8</flags>
+		<id>43</id>
+		<limit>true</limit>
+		<mid0>5</mid0>
+		<nme>Экран разблокир.</nme>
+		<Event sr="con0" ve="2">
+			<code>1000</code>
+		</Event>
+	</Profile>
+	<Task sr="task5">
+		<cdate>1620312431397</cdate>
+		<edate>1620312592548</edate>
+		<id>5</id>
+		<nme>cls_escritorio</nme>
+		<Action sr="act0" ve="7">
+			<code>245</code>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>245</code>
+		</Action>
+	</Task>
+</TaskerData>

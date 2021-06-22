@@ -1,0 +1,12 @@
+<TaskerData sr="" dvi="1" tv="5.11.14">
+	<Task sr="task10">
+		<cdate>1485892707309</cdate>
+		<edate>1620838910728</edate>
+		<id>10</id>
+		<nme>Smart Bloqueo Pantalla</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>16</code>
+		</Action>
+	</Task>
+</TaskerData>
