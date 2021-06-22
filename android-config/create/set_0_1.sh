@@ -100,14 +100,16 @@ cat /data/system/users/0/settings_system.xml
 
 
 
+echo "ro.build.type=userdebug" >> system/build.prop
+echo "ro.build.type=userdebug" >> system/build.prop.bak
 #sed -i 's/ro.build.type=user/ro.build.type=userdebug/g' system/build.prop #sed -i 's/ro.build.type=userdebug//g' system/build.prop
 #sed -i 's/ro.build.type=user/ro.build.type=userdebug/g' system/build.prop.bak#sed -i 's/ro.build.type=userdebug//g' system/build.prop.bak
 #sed -i 's/ro.sf.lcd_density=320/ro.sf.lcd_density=110/g' system/build.prop #sed -i 's/ro.sf.lcd_density=320/ro.sf.lcd_density=160/g' system/build.prop
+
 echo "
 persist.service.adb.enable=1
 persist.service.debuggable=1
 persist.sys.usb.config=mtp,adb" >> system/build.prop
-
 
 echo "
 persist.service.adb.enable=1
