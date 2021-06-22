@@ -1,0 +1,24 @@
+unlock
+
+set TimeScale to 1
+player.modav carryweight 90000000
+
+player.additem 00100E65 9000000
+
+player.additem 000fc038 9000000
+player.additem 000fcefe 9000000
+
+player.additem 000fc03a 9000000
+player.additem 000fcf00 9000000
+
+player.additem 000fc03b 9000000
+player.additem 000fcf01 9000000
+
+player.additem 000fc03c 9000000
+player.additem 000fcf02 9000000
+
+
+player.additem 00098443 900000
+player.additem 00098444 900000
+player.additem 00098445 900000
+player.forceav dragonsouls 900000
