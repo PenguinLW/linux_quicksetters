@@ -1,13 +1,21 @@
-echo #bat skrm
+#bat skrm
+
+#select someonce..
 unlock
+#select self
+lock 101
+#or no-sselect self
+player.lock 101
+
 
 set TimeScale to 1
+player.additem 0000000f 90000000
 player.forceav dragonsouls 9000000
 player.forceav dragonsouls 9000000
 player.modav carryweight 90000000
 player.modav carryweight 90000000
 
-player.additem 00100E65 90000000
+player.additem 00100e65 90000000
 
 player.additem 000fc038 90000000
 
