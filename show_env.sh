@@ -1,6 +1,6 @@
 #in target os
 whoami
-uname -m #armv71
+uname -m #x86_64
 pwd
 
 java -version
@@ -13,7 +13,7 @@ which adb_listofd
 which adb_restart
 which adbd_restart
 
-ls -al /root/Programm/
+ls -al Programm/
 ls -al /bin/
 ls -al /usr/bin/
 ls -al /etc/alternatives/

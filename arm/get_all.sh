@@ -1,12 +1,5 @@
 #in target os
 git clone -o linux_quicksetters https://github.com/Kovalsky95/linux_quicksetters.git
-
-#rm -d -r -f Programm & mkdir Programm
-
+#rm -dfr Programm & mkdir Programm
 cp -R linux_quicksetters/* /root/Programm/
-
-rm -d -r -f linux_quicksetters 
-
-#update-alternatives --install /usr/bin/get_all get_all /root/Programm/arm/get_all.sh 1
-
-#update-alternatives --set get_all /root/Programm/arm/get_all.sh
+rm -dfr linux_quicksetters
