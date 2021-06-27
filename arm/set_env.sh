@@ -21,6 +21,9 @@ update-alternatives --set adbd_restart /root/Programm/android-config/arm/src/adb
 update-alternatives --install /usr/bin/y5_connect y5_connect /root/Programm/1024768/y5_connect.sh 1
 update-alternatives --set y5_connect /root/Programm/1024768/y5_connect.sh
 
+update-alternatives --install /usr/bin/ixion_connect ixion_connect /root/Programm/1024768/ixion_connect.sh 1
+update-alternatives --set ixion_connect /root/Programm/1024768/ixion_connect.sh
+
 update-alternatives --install /usr/bin/all_ejecution all_ejecution /root/Programm/1024768/all_ejecution.sh 1
 update-alternatives --set all_ejecution /root/Programm/1024768/all_ejecution.sh
 
