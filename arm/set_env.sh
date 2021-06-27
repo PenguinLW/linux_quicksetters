@@ -36,7 +36,7 @@ update-alternatives --set hw_ssh /root/Programm/1024768/hw_ssh.sh
 update-alternatives --install /usr/bin/y5_unlock_screen y5_unlock_screen /root/Programm/1024768/y5_unlock_screen.sh 1
 update-alternatives --set y5_unlock_screen /root/Programm/1024768/y5_unlock_screen.sh
 
-update-alternatives --install /usr/bin/hw_connect huawei_connect /root/Programm/1024768/huawei_connect.sh 1
+update-alternatives --install /usr/bin/huawei_connect huawei_connect /root/Programm/1024768/huawei_connect.sh 1
 update-alternatives --set huawei_connect /root/Programm/1024768/huawei_connect.sh
 
 chmod +x /root/Programm/arm/*.sh
