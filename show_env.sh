@@ -2,6 +2,14 @@
 whoami
 uname -m #x86_64
 pwd
+free
+free -m
+free -m -t
+cat /proc/meminfo
+vmstat
+top
+htop #sudo apt install htop -y
+acpi -V #sudo apt install acpi -y #sudo apt install acpitool -y
 
 java -version
 javac -version

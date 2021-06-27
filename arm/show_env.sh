@@ -2,6 +2,14 @@
 whoami
 uname -m #armv71
 pwd
+free
+free -m
+free -m -t
+cat /proc/meminfo
+vmstat
+top
+htop #apt install htop -y
+
 
 java -version
 javac -version
