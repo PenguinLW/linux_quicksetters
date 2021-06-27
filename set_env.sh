@@ -30,6 +30,9 @@ sudo update-alternatives --set y5_ssh /home/penguinl/Programm/1024768/y5_ssh.sh
 sudo update-alternatives --install /usr/bin/hw_ssh hw_ssh /home/penguinl/Programm/1024768/hw_ssh.sh 1
 sudo update-alternatives --set hw_ssh /home/penguinl/Programm/1024768/hw_ssh.sh
 
+sudo update-alternatives --install /usr/bin/y5_show y5_show /home/penguinl/Programm/1024768/y5_show.sh 1
+sudo update-alternatives --set y5_show /home/penguinl/Programm/1024768/y5_show.sh
+
 sudo update-alternatives --install /usr/bin/y5_unlock_screen y5_unlock_screen /home/penguinl/Programm/1024768/y5_unlock_screen.sh 1
 sudo update-alternatives --set y5_unlock_screen /home/penguinl/Programm/1024768/y5_unlock_screen.sh
 
