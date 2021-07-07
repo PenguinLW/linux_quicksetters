@@ -20,6 +20,8 @@ sudo find / -iname "kivy-examples"
 sudo apt install build-essential autoconf libtool -y
 sudo apt-get install automake -y
 sudo apt-get install zlib1g-dev -y
+sudo apt install libltdl-dev libffi-dev libssl-dev python-dev -y
+
 
 #sudo apt-get install git
 #sudo apt-get install python-pip
