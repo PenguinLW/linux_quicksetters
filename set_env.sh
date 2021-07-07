@@ -40,13 +40,13 @@ sudo update-alternatives --install /usr/bin/huawei_connect huawei_connect /home/
 sudo update-alternatives --set huawei_connect /home/penguinl/Programm/1024768/huawei_connect.sh
 
 sudo update-alternatives --install /usr/bin/huawei_show huawei_show /home/penguinl/Programm/1024768/huawei_show.sh 1
-sudo update-alternatives --set y5_show /home/penguinl/Programm/1024768/huawei_show.sh
+sudo update-alternatives --set huawei_show /home/penguinl/Programm/1024768/huawei_show.sh
 
 sudo update-alternatives --install /usr/bin/ixion_connect ixion_connect /home/penguinl/Programm/1024768/ixion_connect.sh 1
 sudo update-alternatives --set ixion_connect /home/penguinl/Programm/1024768/ixion_connect.sh
 
 sudo update-alternatives --install /usr/bin/ixion_show ixion_show /home/penguinl/Programm/1024768/ixion_show.sh 1
-sudo update-alternatives --set y5_show /home/penguinl/Programm/1024768/ixion_show.sh
+sudo update-alternatives --set ixion_show /home/penguinl/Programm/1024768/ixion_show.sh
 
 chmod +x Programm/*.sh
 chmod +x Programm/arm/*.sh
