@@ -1,5 +1,6 @@
 buildozer init
 rm -rf ~/.buildozer/android/packages
+rm -rf ~/.buildozer/android/app
 buildozer android debug
 
 
