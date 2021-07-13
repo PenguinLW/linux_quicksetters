@@ -1,0 +1,16 @@
+#wget https://dotsrc.dl.osdn.net/osdn/android-x86/68670/cm-x86_64-14.1-r4.iso #wget https://osdn.mirror.liquidtelecom.com/android-x86/68670/cm-x86-14.1-r5.iso
+#menuentry "Lineage 14" {
+#    set root='(hd0,5)'
+#    search --no-floppy --set=root --file /home/penguinl/lineage/android/ramdisk.img
+#    linux /home/penguinl/lineage/android/kernel CMDLINE androidboot.hardware=omni SRC=/home/penguinl/lineage/android
+#    initrd /home/penguinl/lineage/android/initrd.img
+#}
+#	set root='(hd0,7)'
+#	search --file --no-floppy --set=root /ramdisk.img
+#	linux /kernel root='(hd0,7)' androidboot.selinux=permissive quiet SRC=/
+#	initrd /initrd.img
+#
+	set root='(hd0,5)'
+	search --file --no-floppy --set=root /home/penguinl/Programm/lineage/android/ramdisk.img
+	linux /home/penguinl/Programm/lineage/android/kernel root='(hd0,5)' androidboot.selinux=permissive quiet SRC=/home/penguinl/Programm/lineage/android/
+	initrd /home/penguinl/Programm/lineage/android/initrd.img
