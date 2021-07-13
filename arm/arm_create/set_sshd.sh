@@ -1,5 +1,5 @@
 #in termux
-apt install openssh
+apt install openssh -y
 pkill sshd
 passwd
 sshd #. /Programm/1024768/arm/sshd.sh
