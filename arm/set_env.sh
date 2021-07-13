@@ -24,9 +24,6 @@ update-alternatives --set y5_connect /root/Programm/1024768/y5_connect.sh
 update-alternatives --install /usr/bin/ixion_connect ixion_connect /root/Programm/1024768/ixion_connect.sh 1
 update-alternatives --set ixion_connect /root/Programm/1024768/ixion_connect.sh
 
-update-alternatives --install /usr/bin/ixion_ssh ixion_ssh /root/Programm/1024768/ixion_ssh.sh 1
-update-alternatives --set ixion_ssh /root/Programm/1024768/ixion_ssh.sh
-
 update-alternatives --install /usr/bin/all_ejecution all_ejecution /root/Programm/1024768/all_ejecution.sh 1
 update-alternatives --set all_ejecution /root/Programm/1024768/all_ejecution.sh
 
@@ -35,6 +32,9 @@ update-alternatives --set y5_ssh /root/Programm/1024768/y5_ssh.sh
 
 update-alternatives --install /usr/bin/hw_ssh hw_ssh /root/Programm/1024768/hw_ssh.sh 1
 update-alternatives --set hw_ssh /root/Programm/1024768/hw_ssh.sh
+
+update-alternatives --install /usr/bin/ixion_ssh ixion_ssh /root/Programm/1024768/ixion_ssh.sh 1
+update-alternatives --set ixion_ssh /root/Programm/1024768/ixion_ssh.sh
 
 update-alternatives --install /usr/bin/y5_unlock_screen y5_unlock_screen /root/Programm/1024768/y5_unlock_screen.sh 1
 update-alternatives --set y5_unlock_screen /root/Programm/1024768/y5_unlock_screen.sh
