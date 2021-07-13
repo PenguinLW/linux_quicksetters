@@ -1,3 +1,4 @@
+#https://drive.google.com/file/d/1ipRmOkOw-0N3Cd_EuCBHiAQS9auroOgt/view #https://drive.google.com/u/0/uc?id=1ipRmOkOw-0N3Cd_EuCBHiAQS9auroOgt&export=download #https://drive.google.com/u/0/uc?export=download&confirm=pUmV&id=1ipRmOkOw-0N3Cd_EuCBHiAQS9auroOgt #https://doc-0c-84-docs.googleusercontent.com/docs/securesc/2co035phqvvcadlscbehfliot19q8pre/5jat0bbj5m92pu0tmcnguo9pr0c8ubol/1626206550000/02150789954534124070/13908332393580854554/1ipRmOkOw-0N3Cd_EuCBHiAQS9auroOgt?e=download&authuser=0&nonce=hmff1qufbfmb6&user=13908332393580854554&hash=h01806anpjuqdeclfg4qluu0gfsq5sdf
 #wget https://dotsrc.dl.osdn.net/osdn/android-x86/68670/cm-x86_64-14.1-r4.iso #wget https://osdn.mirror.liquidtelecom.com/android-x86/68670/cm-x86-14.1-r5.iso
 #menuentry "Lineage 14" {
 #    set root='(hd0,5)'
