@@ -29,6 +29,7 @@ sudo apt install libltdl-dev libffi-dev libssl-dev python-dev -y
 
 wget https://github.com/kivy/buildozer/archive/refs/tags/1.2.0.tar.gz
 tar -xvzf /home/penguinl/Documentos/PycharmProjects/linux_quicksetters/1.2.0.tar.gz && mv buildozer-1.2.0 /home/penguinl/ && rm /home/penguinl/Documentos/PycharmProjects/linux_quicksetters/1.2.0.tar.gz
+#tar -xvzf /home/penguinl/Documentos/PycharmProjects/kivy_sampl/1.2.0.tar.gz && mv buildozer-1.2.0 /home/penguinl/ && rm /home/penguinl/Documentos/PycharmProjects/kivy_sampl/1.2.0.tar.gz
 cd /home/penguinl/buildozer-1.2.0/
 python setup.py install
 #sudo python setup.py install
