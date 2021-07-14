@@ -1,4 +1,5 @@
 #in termux
+apt install termux-services -y
 apt install openssh -y
 pkill sshd
 passwd

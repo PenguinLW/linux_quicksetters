@@ -29,4 +29,5 @@ echo '#!/bin/sh' > ~/../usr/var/service/tsshd/run
 echo 'exec sshd' >> ~/../usr/var/service/tsshd/run
 termux-fix-shebang ~/../usr/var/service/tsshd/run
 chmod +x ~/../usr/var/service/tsshd/run
+#sv down tsshd
 sv up tsshd
