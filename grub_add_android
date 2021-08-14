@@ -15,3 +15,10 @@
 	search --file --no-floppy --set=root /home/penguinl/Programm/lineage/android/ramdisk.img
 	linux /home/penguinl/Programm/lineage/android/kernel root='(hd0,5)' androidboot.selinux=permissive quiet SRC=/home/penguinl/Programm/lineage/android/
 	initrd /home/penguinl/Programm/lineage/android/initrd.img
+
+
+#wget https://dotsrc.dl.osdn.net/osdn/android-x86/71931/android-x86_64-9.0-r2.iso
+	set root='(hd0,5)'
+	search --file --no-floppy --set=root /home/penguinl/Programm/lineage/android_9/ramdisk.img
+	linux /home/penguinl/Programm/lineage/android_9/kernel root='(hd0,5)' androidboot.selinux=permissive quiet SRC=/home/penguinl/Programm/lineage/android_9/
+	initrd /home/penguinl/Programm/lineage/android_9/initrd.img
