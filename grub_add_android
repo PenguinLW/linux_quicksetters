@@ -25,6 +25,12 @@
 
 
 #https://sourceforge.net/projects/blissos-dev/files/Android-Generic/PC/lineage/
+#wget https://netix.dl.sourceforge.net/project/blissos-dev/Android-Generic/PC/lineage/LineageOS_v17.1-android_x86_64-202009091904_k-kernel-5.8-si-next-rmi_m-lineage-17.1_dgc-q-x86-generic_gms_cros-hd_cros-wv.iso
+	set root='(hd0,5)'
+	search --file --no-floppy --set=root /home/penguinl/Programm/lineage/android_/ramdisk.img
+	linux /home/penguinl/Programm/lineage/android_/kernel root='(hd0,5)' androidboot.selinux=permissive quiet SRC=/home/penguinl/Programm/lineage/android_/
+	initrd /home/penguinl/Programm/lineage/android_/initrd.img
+
 #wget https://deac-fra.dl.sourceforge.net/project/blissos-dev/Android-Generic/PC/bliss/R/foss/BlissOS-14.3-x86_64-202107242243_k-android12-5.10.50-ax86_m-21.1.3_r-x86_foss_cros-hd.iso
 	set root='(hd0,5)'
 	search --file --no-floppy --set=root /home/penguinl/Programm/lineage/android_/ramdisk.img
