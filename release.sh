@@ -1,5 +1,5 @@
 #in venv
-. venv/bin/activate
+#. venv/bin/activate
 #pip install -r req.txt
 pip freeze > req.txt
 #git clone -o linux_quicksetters https://github.com/Kovalsky95/linux_quicksetters.git
