@@ -1,4 +1,5 @@
 #in venv
+. /home/penguinl/Documentos/PycharmProjects/linux_quicksetters/venv/bin/activate
 #pip install -r req.txt
 pip freeze > req.txt
 #git clone -o linux_quicksetters https://github.com/Kovalsky95/linux_quicksetters.git
@@ -12,3 +13,4 @@ git pull --all
 git add .
 git commit -m PenguinL
 git push --set-upstream linux_quicksetters master
+deactivate
