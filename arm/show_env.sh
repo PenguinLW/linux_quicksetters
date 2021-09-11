@@ -1,6 +1,6 @@
 #in target os
 whoami
-uname -m #armv71
+uname -m #armv7l
 pwd
 free
 free -m
