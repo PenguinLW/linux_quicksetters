@@ -2,4 +2,4 @@
 apt-get install python3-venv -y
 python3 -m venv venv
 chmod +x venv/bin/*
-./venv/bin/activate
+. venv/bin/activate
