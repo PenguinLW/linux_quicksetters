@@ -3,12 +3,13 @@ git clone https://github.com/varbhat/exatorrent.git
 
 cd exatorrent/
 make web #make web && make app
-cd internal/web/
 
-npm fund
-#in package-lock.json "lockfileVersion": 1 or the code "hasInstallScript": true
-npm config get ignore-scripts
-npm config set ignore-scripts true
+#cd internal/web/
 
-npm install
-npm run-script build
+#npm fund
+##in package-lock.json "lockfileVersion": 1 or the code "hasInstallScript": true
+#npm config get ignore-scripts
+#npm config set ignore-scripts true
+
+#npm install
+#npm run-script build
