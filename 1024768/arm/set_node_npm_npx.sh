@@ -27,6 +27,10 @@ update-alternatives --set npx /root/node-v10.16.1-linux-armv7l/bin/npx
 #npm install -g npm
 ##npm fund
 
+apt install libssl1.0-dev
+apt install nodejs-dev
+apt install node-gyp -y
+
 node -v
 npm -v
 npx -v
