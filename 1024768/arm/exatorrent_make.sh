@@ -14,4 +14,6 @@ update-alternatives --install /usr/bin/npm npm /root/node-v16.9.1-linux-armv7l/b
 update-alternatives --set npm /root/node-v16.9.1-linux-armv7l/bin/npm
 update-alternatives --install /usr/bin/npx npx /root/node-v16.9.1-linux-armv7l/bin/npx 1
 update-alternatives --set npx /root/node-v16.9.1-linux-armv7l/bin/npx
+
+cd exatorrent/
 make web && make app
