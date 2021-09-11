@@ -22,3 +22,7 @@ make web #make web && make app
 make app #make web && make app
 ##build in go (manual)
 #env CGO_ENABLED=1 go build -trimpath -buildmode=pie -ldflags '-extldflags "-static -s -w"' -o  build/exatorrent exatorrent.go
+
+cd ..
+update-alternatives --install /usr/bin/exatorrent exatorrent /root/exatorrent/build/exatorrent 1
+update-alternatives --set exatorrent /root/exatorrent/build/exatorrent
