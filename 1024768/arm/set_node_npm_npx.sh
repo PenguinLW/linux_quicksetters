@@ -24,8 +24,9 @@ update-alternatives --set npx /root/node-v10.16.1-linux-armv7l/bin/npx
 #update-alternatives --install /usr/bin/npx npx /root/node-v16.9.1-linux-armv7l/bin/npx 1
 #update-alternatives --set npx /root/node-v16.9.1-linux-armv7l/bin/npx
 
-npm install -g npm
-#npm fund
+#npm install -g npm
+##npm fund
+
 node -v
 npm -v
 npx -v
