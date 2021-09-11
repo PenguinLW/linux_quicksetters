@@ -2,7 +2,7 @@
 git clone https://github.com/varbhat/exatorrent.git
 
 cd exatorrent/
-make web && make app
+make web #make web && make app
 cd exatorrent/internal/web/
 npm fund
 #in package-lock.json "lockfileVersion": 1 or the code "hasInstallScript": true
