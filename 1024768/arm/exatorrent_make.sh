@@ -1,9 +1,11 @@
 #in venv
 git clone https://github.com/varbhat/exatorrent.git
 
+##build in node (with auto)
 cd exatorrent/
 make web #make web && make app
 
+##build in node (manual, with npm)
 #cd internal/web/
 
 #npm fund
@@ -14,5 +16,7 @@ make web #make web && make app
 #npm install
 #npm run-script build
 
+##build in go
 make app #make web && make app
+##build in go (manual)
 #env CGO_ENABLED=1 go build -trimpath -buildmode=pie -ldflags '-extldflags "-static -s -w"' -o  build/exatorrent exatorrent.go
