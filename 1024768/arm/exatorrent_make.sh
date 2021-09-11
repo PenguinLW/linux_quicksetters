@@ -1,4 +1,4 @@
-#in venv
+#in venv #. venv/bin/activate
 git clone https://github.com/varbhat/exatorrent.git
 
 #pip3 install nodeenv
