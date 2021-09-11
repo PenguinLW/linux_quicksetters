@@ -3,7 +3,7 @@ git clone https://github.com/varbhat/exatorrent.git
 
 ##build in node (with auto)
 cd exatorrent/
-mkdir internals/web/build/
+mkdir internal/web/build/
 touch internal/web/build/exatorrent
 make web #make web && make app
 
