@@ -1,4 +1,5 @@
 #in venv
+#https://danidudas.medium.com/how-to-install-node-js-and-npm-on-any-raspberry-pi-5a82acdfeefc
 
 #pip3 install nodeenv
 #nodeenv nenv
