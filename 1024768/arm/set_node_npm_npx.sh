@@ -27,8 +27,6 @@ update-alternatives --set npx /root/node-v10.16.1-linux-armv7l/bin/npx
 #npm install -g npm
 ##npm fund
 
-#https://stackoverflow.com/questions/46053414/npm-warn-requires-a-peer-of-but-none-is-installed-you-must-install-peer
-
 node -v
 npm -v
 npx -v
