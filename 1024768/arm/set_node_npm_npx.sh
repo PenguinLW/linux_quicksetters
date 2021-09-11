@@ -30,6 +30,7 @@ update-alternatives --set npx /root/node-v10.16.1-linux-armv7l/bin/npx
 #https://stackoverflow.com/questions/46053414/npm-warn-requires-a-peer-of-but-none-is-installed-you-must-install-peer
 apt install libssl1.0-dev -y
 apt install nodejs-dev -y
+apt install libnode-dev -y
 apt install node-gyp -y
 
 node -v
