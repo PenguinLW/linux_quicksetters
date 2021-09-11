@@ -32,6 +32,9 @@ apt install libssl1.0-dev -y
 apt install nodejs-dev -y
 apt install libnode-dev -y
 apt install node-gyp -y
+npm install node-gyp -g
+npm install bcrypt -g
+npm install bcrypt --save
 
 node -v
 npm -v
