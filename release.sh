@@ -2,6 +2,7 @@
 . venv/bin/activate
 #pip install -r req.txt
 pip freeze > req.txt
+chmod u+x *.sh *.py
 #git clone -o linux_quicksetters https://github.com/Kovalsky95/linux_quicksetters.git
 #git config --global user.email "diana1997525@gmail.com"
 #git config --global user.name "Kovalsky95"
