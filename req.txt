@@ -44,6 +44,7 @@ Kivy-Garden==0.1.4
 ldap3==2.9
 Mako==1.1.4
 MarkupSafe==2.0.1
+nodeenv==1.6.0
 paramiko==2.7.2
 passlib==1.7.4
 pep517==0.6.0

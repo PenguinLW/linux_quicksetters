@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/home/penguinl/Documentos/PycharmProjects/linux_quicksetters/nenv/lib/node_modules'
+export NPM_CONFIG_PREFIX='/home/penguinl/Documentos/PycharmProjects/linux_quicksetters/nenv'
+export npm_config_prefix='/home/penguinl/Documentos/PycharmProjects/linux_quicksetters/nenv'
+exec 'nenv/bin/node' "$@"
