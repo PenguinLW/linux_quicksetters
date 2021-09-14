@@ -7,6 +7,7 @@ pause
 sdkmanager "platform-tools" "platforms;android-23"
 sdkmanager "platform-tools" "platforms;android-25"
 sdkmanager "platform-tools" "platforms;android-26"
+rem #https://developer.android.com/studio/releases/platforms #https://developer.android.com/studio
 rem sdkmanager "platform-tools" "platforms;android-27"
 rem sdkmanager "platform-tools" "platforms;android-28"
 rem sdkmanager "platform-tools" "platforms;android-29"
