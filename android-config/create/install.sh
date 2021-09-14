@@ -4,6 +4,7 @@ cd .. && cd tools/tools/bin/
 ./sdkmanager "platform-tools" "platforms;android-23"
 ./sdkmanager "platform-tools" "platforms;android-25"
 ./sdkmanager "platform-tools" "platforms;android-26"
+#https://developer.android.com/studio/releases/platforms #https://developer.android.com/studio
 #./sdkmanager "platform-tools" "platforms;android-27"
 #./sdkmanager "platform-tools" "platforms;android-28"
 #./sdkmanager "platform-tools" "platforms;android-29"
