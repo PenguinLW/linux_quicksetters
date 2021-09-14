@@ -5,4 +5,9 @@ cd .. && cd c:\Programm\android-config\sdk-tools-windows-4333796\tools\bin
 sdkmanager --list
 pause
 sdkmanager "platform-tools" "platforms;android-23"
+sdkmanager "platform-tools" "platforms;android-25"
 sdkmanager "platform-tools" "platforms;android-26"
+rem sdkmanager "platform-tools" "platforms;android-27"
+rem sdkmanager "platform-tools" "platforms;android-28"
+rem sdkmanager "platform-tools" "platforms;android-29"
+rem sdkmanager "platform-tools" "platforms;android-30"
