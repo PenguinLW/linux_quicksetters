@@ -20,8 +20,10 @@ pip3 install https://files.pythonhosted.org/packages/07/3a/3c8befe563e42449b8904
 #for update command
 sudo pip3 install --upgrade pgadmin4 #https://files.pythonhosted.org/packages/b5/c6/a78f02964ed956c6a3846e47a6519f522b3c902f745410d281f9215ae0ea/pgadmin4-5.3-py3-none-any.whl
 
+sudo update-alternatives --install /usr/bin/pgadmin4 pgadmin4 /home/penguinl/Programm/1024768/pgadmin4.sh 1
+
 which pgadmin4
 #/home/penguinl/Documentos/PycharmProjects/linux_quicksetters/venv/bin/pgadmin4
-sudo /home/penguinl/Documentos/PycharmProjects/linux_quicksetters/venv/bin/pgadmin4
+pgadmin4
 #http://127.0.0.1:5050
 #deactivate
