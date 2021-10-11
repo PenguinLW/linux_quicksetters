@@ -4,7 +4,7 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 #sudo apt-get install python3.6 -y
 #sudo apt-get install python3.7 -y
 #sudo apt-get install python3.8 -y
-#sudo apt-get install python3.9 -y
+sudo apt-get install python3.9 -y
 which python3.5
 #which python3.6
 #which python3.7
@@ -19,7 +19,7 @@ sudo apt-get install python3.5-dev -y
 #sudo apt-get install python3.6-dev -y
 #sudo apt-get install python3.7-dev -y
 #sudo apt-get install python3.8-dev -y
-#sudo apt-get install python3.9-dev -y
+sudo apt-get install python3.9-dev -y
 
 
 sudo apt-get upgrade python3.6 -y
