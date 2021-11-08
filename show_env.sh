@@ -1,4 +1,5 @@
 #in target os
+du -hs *
 whoami
 uname -m #x86_64
 pwd
