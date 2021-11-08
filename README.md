@@ -1,5 +1,7 @@
 # linux_quiksetters
+
 ####get/build this
+
 get_all.sh
 
 local_build.sh
@@ -57,10 +59,13 @@ pgadmin_python3.sh
 Kivy/*
 
 Latex_etc/*
+
 #not_unix
+
 ####get/build this
 
 ####not_unix
+
 Zapros_parolya.bat
 
 1024768/*.bat
@@ -68,7 +73,9 @@ Zapros_parolya.bat
 android_config/create/*.bat
 
 android_config/src/*.bat
+
 ####not_unix_dev
+
 Flask/*.bat
 
 Flask/*.txt
