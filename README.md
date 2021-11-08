@@ -14,7 +14,9 @@ local_build.sh
 
 1024768/arm/*.sh
 
-1024768/arm/*.py
+1024768/exatorrent/*.sh
+
+exatorrent/*.sh
 
 arm/*.sh
 
