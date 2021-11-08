@@ -10,6 +10,10 @@ local_build.sh
 
 1024768/*.py
 
+1024768/arm/*.sh
+
+1024768/arm/*.py
+
 arm/*.sh
 
 arm/arm_create/*.sh
