@@ -1,12 +1,11 @@
 #in target os
-
 lscpu
-
 uname -a
 du -hs *
 whoami
 uname -m #armv7l
 pwd
+lsblk
 free
 free -m
 free -m -t
@@ -14,7 +13,6 @@ cat /proc/meminfo
 vmstat
 top
 htop #apt install htop -y
-
 
 java -version
 javac -version
