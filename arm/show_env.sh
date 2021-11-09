@@ -1,4 +1,8 @@
 #in target os
+
+lscpu
+
+uname -a
 du -hs *
 whoami
 uname -m #armv7l
