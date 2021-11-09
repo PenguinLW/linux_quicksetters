@@ -15,12 +15,12 @@ apt install curl -y
 #ls -al Programm
 #wget http://192.168.43.62:8081/1868/jdk-8u291-linux-arm32-vfp-hflt.tar.gz --no-check-certificate
 #curl -O http://192.168.43.62:8081/1868/jdk-8u291-linux-arm32-vfp-hflt.tar.gz
-curl -O http://192.168.43.62:8081/1868/jdk-8u291-linux-arm32-vfp-hflt.tar.gz
+curl -O http://192.168.43.1:8081/7007/jdk-8u311-linux-arm32-vfp-hflt.tar.gz
 
 
-tar -xvzf /root/jdk-8u291-linux-arm32-vfp-hflt.tar.gz && mv /root/jdk1.8.0_291/ /root/Programm/ && rm -r -f /root/jdk-8u291-linux-arm32-vfp-hflt.tar.gz
+tar -xvzf /root/jdk-8u311-linux-arm32-vfp-hflt.tar.gz && mv /root/jdk1.8.0_311/ /root/Programm/ && rm -r -f /root/jdk-8u311-linux-arm32-vfp-hflt.tar.gz
 echo "
-JAVA_HOME=/root/Programm/jdk1.8.0_291
+JAVA_HOME=/root/Programm/jdk1.8.0_311
 PATH=\$PATH:\$HOME/bin:\$JAVA_HOME/bin
 export JAVA_HOME
 export PATH" >> /etc/profile
@@ -35,15 +35,15 @@ which javac
 java -version
 javac -version
 mkdir -p /opt/google/chrome/plugins
-ln -s /usr/local/java/jdk1.8.0_291/jre/lib/amd64/libnpjp2.so
+ln -s /usr/local/java/jdk1.8.0_311/jre/lib/amd64/libnpjp2.so
 mkdir -p /usr/lib/mozilla/plugins
-ln -s /usr/local/java/jdk1.8.0_291/jre/lib/amd64/libnpjp2.so
+ln -s /usr/local/java/jdk1.8.0_311/jre/lib/amd64/libnpjp2.so
 
-update-alternatives --install "/usr/bin/java" "java" "/root/Programm/jdk1.8.0_291/bin/java" 1
-update-alternatives --install "/usr/bin/javac" "javac" "/root/Programm/jdk1.8.0_291/bin/javac" 1
-#update-alternatives --install "/usr/bin/javaws" "javaws" "/root/Programm/jdk1.8.0_291/bin/javaws" 1
-update-alternatives --set java /root/Programm/jdk1.8.0_291/bin/java
-update-alternatives --set javac /root/Programm/jdk1.8.0_291/bin/javac
+update-alternatives --install "/usr/bin/java" "java" "/root/Programm/jdk1.8.0_311/bin/java" 1
+update-alternatives --install "/usr/bin/javac" "javac" "/root/Programm/jdk1.8.0_311/bin/javac" 1
+#update-alternatives --install "/usr/bin/javaws" "javaws" "/root/Programm/jdk1.8.0_311/bin/javaws" 1
+update-alternatives --set java /root/Programm/jdk1.8.0_311/bin/java
+update-alternatives --set javac /root/Programm/jdk1.8.0_311/bin/javac
 
 #update-alternatives --set javaws /root/Programm/jdk1.8.0_291/bin/javaws
 #update-alternatives --set java /Programm/jdk1.8.0_281/bin/java
