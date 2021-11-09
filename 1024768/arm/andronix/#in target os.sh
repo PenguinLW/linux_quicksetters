@@ -6,10 +6,12 @@ apt install net-tools -y
 apt install usbutils libudev-dev libusb-1.0-0-dev libusb-dev -y
 apt install v4l-utils -y && sudo v4l-ctl --list-devices
 apt install ffmpeg -y #ffplay /dev/video0
+
 apt install nginx -y #nginx
 ##in venv
-#. venv/bin/activate
-#pip3 install nginxpy && pip3 install python-nginx
+. venv/bin/activate
+pip3 install python-nginx #pip3 install nginxpy
+deactivate && deactivate_node
 
 vncserver-start
 vncserver -list
