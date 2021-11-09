@@ -5,6 +5,7 @@ du -hs *
 whoami
 uname -m #x86_64
 pwd
+lsblk
 free
 free -m
 free -m -t
