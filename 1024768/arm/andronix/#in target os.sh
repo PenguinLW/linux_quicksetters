@@ -3,6 +3,7 @@ apt install htop -y
 apt install curl -y
 apt install git -y
 apt install net-tools -y
+apt install usbutils -y
 
 vncserver-start
 vncserver -list
