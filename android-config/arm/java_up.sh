@@ -14,7 +14,9 @@ apt install curl -y
 #rm -drf /root/Programm/jdk1.8.0_281/
 #ls -al Programm
 #wget http://192.168.43.62:8081/1868/jdk-8u291-linux-arm32-vfp-hflt.tar.gz --no-check-certificate
+#curl -O http://192.168.43.62:8081/1868/jdk-8u291-linux-arm32-vfp-hflt.tar.gz
 curl -O http://192.168.43.62:8081/1868/jdk-8u291-linux-arm32-vfp-hflt.tar.gz
+
 
 tar -xvzf /root/jdk-8u291-linux-arm32-vfp-hflt.tar.gz && mv /root/jdk1.8.0_291/ /root/Programm/ && rm -r -f /root/jdk-8u291-linux-arm32-vfp-hflt.tar.gz
 echo "
