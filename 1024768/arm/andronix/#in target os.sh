@@ -1,4 +1,5 @@
 #in target os
+nano /etc/hosts #127.0.0.1  localhost
 apt install htop -y
 apt install curl -y
 apt install git -y
