@@ -3,9 +3,8 @@ apt install htop -y
 apt install curl -y
 apt install git -y
 apt install net-tools -y
-apt install usbutils -y
-apt install libudev-dev libusb-1.0-0-dev -y
-apt install libudev-dev libusb-dev usbutils -y
+apt install usbutils libudev-dev libusb-1.0-0-dev libusb-dev -y
+apt install v4l-utils -y && sudo v4l-utils -y
 
 vncserver-start
 vncserver -list
