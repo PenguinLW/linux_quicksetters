@@ -1,4 +1,6 @@
 #in target os
+lscpu
+uname -a
 du -hs *
 whoami
 uname -m #x86_64
