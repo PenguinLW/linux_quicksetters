@@ -8,6 +8,7 @@ apt install usbutils libudev-dev libusb-1.0-0-dev libusb-dev -y
 apt install v4l-utils -y && sudo v4l-ctl --list-devices
 apt install ffmpeg -y #ffplay /dev/video0
 
+apt install cmake -y
 pip install opencv-python
 pip install opencv-contrib-python
 pip install opencv-python-headless
