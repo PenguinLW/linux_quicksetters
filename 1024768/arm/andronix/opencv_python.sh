@@ -1,5 +1,17 @@
 #in target os
 ##https://pypi.org/project/opencv-python-armv7l/
+git clone --recursive https://github.com/opencv/opencv-python.git
+cd opencv-python
+export CMAKE_ARGS="-DSOME_FLAG=ON -DSOME_OTHER_FLAG=OFF"
+#export ENABLE_CONTRIB=1
+pip wheel . --verbose
+pip3 install scikit-build numpy
+python setup.py bdist_wheel --build-type=Debug #pip wheel . --verbose --build-type=Debug
+pip install dist/wheelname.whl
+export CMAKE_ARGS='-DCMAKE_VERBOSE_MAKEFILE=ON'
+export VERBOSE=1
+python3 setup.py bdist_wheel --build-type=Debug #pip wheel . --verbose --build-type=Debug
+
 
 
 #apt install usbutils libudev-dev libusb-1.0-0-dev libusb-dev -y
