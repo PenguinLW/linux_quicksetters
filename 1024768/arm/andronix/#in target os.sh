@@ -9,6 +9,10 @@ apt install v4l-utils -y && sudo v4l-ctl --list-devices
 apt install ffmpeg -y #ffplay /dev/video0
 
 apt install cmake -y
+apt install python3.9 -y
+apt install python3.9-dev -y
+apt install python3.9-venv -y
+
 pip install opencv-python
 pip install opencv-contrib-python
 pip install opencv-python-headless
