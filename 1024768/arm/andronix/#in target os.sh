@@ -8,8 +8,10 @@ apt install usbutils libudev-dev libusb-1.0-0-dev libusb-dev -y
 apt install v4l-utils -y && sudo v4l-ctl --list-devices
 apt install ffmpeg -y #ffplay /dev/video0
 
-apt-get install python3-opencv -y #import cv2 as cv; print(cv.__version__);
-apt install libx264-dev -y
+pip install opencv-python
+pip install opencv-contrib-python
+pip install opencv-python-headless
+pip install opencv-contrib-python-headless
 
 apt install nginx -y #nginx
 ##in venv
