@@ -20,3 +20,4 @@ update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 4
 #apt-get install python3.7-dev -y
 apt-get install python3.8-dev -y
 #apt-get install python3.9-dev -y
+apt install python3.9-venv -y
