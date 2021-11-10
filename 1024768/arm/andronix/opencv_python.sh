@@ -3,7 +3,7 @@
 git clone --recursive https://github.com/opencv/opencv-python.git
 cd opencv-python
 export CMAKE_ARGS="-DSOME_FLAG=ON -DSOME_OTHER_FLAG=OFF"
-#export ENABLE_CONTRIB=1
+export ENABLE_CONTRIB=1 #ENABLE_HEADLESS
 pip wheel . --verbose
 pip3 install scikit-build numpy
 python setup.py bdist_wheel --build-type=Debug #pip wheel . --verbose --build-type=Debug
