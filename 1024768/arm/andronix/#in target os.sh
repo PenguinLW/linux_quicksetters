@@ -4,25 +4,7 @@ apt install htop -y
 apt install curl -y
 apt install git -y
 apt install net-tools -y
-apt install usbutils libudev-dev libusb-1.0-0-dev libusb-dev -y
-apt install v4l-utils -y && sudo v4l-ctl --list-devices
-apt install ffmpeg -y #ffplay /dev/video0
-
 apt install cmake -y
-apt install python3.9 -y
-apt install python3.9-dev -y
-apt install python3.9-venv -y
-
-pip install opencv-python
-pip install opencv-contrib-python
-pip install opencv-python-headless
-pip install opencv-contrib-python-headless
-
-apt install nginx -y #nginx
-##in venv
-. venv/bin/activate
-pip3 install python-nginx #pip3 install nginxpy
-deactivate && deactivate_node
 
 vncserver-start
 vncserver -list
