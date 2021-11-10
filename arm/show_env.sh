@@ -6,6 +6,10 @@ whoami
 uname -m #armv7l
 pwd
 lsblk
+fdisk -l
+df
+df -haT
+df -haTi
 free
 free -m
 free -m -t
