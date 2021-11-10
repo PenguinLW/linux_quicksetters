@@ -7,7 +7,9 @@ apt install net-tools -y
 apt install usbutils libudev-dev libusb-1.0-0-dev libusb-dev -y
 apt install v4l-utils -y && sudo v4l-ctl --list-devices
 apt install ffmpeg -y #ffplay /dev/video0
-apt install python3-opencv -y
+
+apt-get install python3-opencv -y #import cv2 as cv; print(cv.__version__);
+apt install libx264-dev -y
 
 apt install nginx -y #nginx
 ##in venv
