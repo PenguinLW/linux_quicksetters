@@ -6,6 +6,10 @@ whoami
 uname -m #x86_64
 pwd
 lsblk
+fdisk -l
+df
+df -haT
+df -haTi
 free
 free -m
 free -m -t
