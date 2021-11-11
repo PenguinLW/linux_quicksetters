@@ -5,6 +5,7 @@ apt install curl -y
 apt install git -y
 apt install net-tools -y
 apt install cmake -y
+apt install libpq-dev -y
 
 vncserver-start
 vncserver -list
