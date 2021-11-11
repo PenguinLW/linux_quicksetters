@@ -7,7 +7,6 @@ apt install net-tools -y
 apt install cmake -y
 apt install libpq-dev -y
 apt install libgnutls28-dev -y
-pip install wheel
 
 vncserver-start
 vncserver -list
