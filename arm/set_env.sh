@@ -36,7 +36,7 @@ update-alternatives --install /usr/bin/huawei_show huawei_show /root/Programm/10
 update-alternatives --set huawei_show /root/Programm/1024768/huawei_show.sh
 update-alternatives --install /usr/bin/y5_show y5_show /root/Programm/1024768/y5_show.sh 1
 update-alternatives --set y5_show /home/penguinl/Programm/1024768/y5_show.sh
-update-alternatives --install /usr/bin/xm_show y5_show /root/Programm/1024768/xm_show.sh 1
+update-alternatives --install /usr/bin/xm_show xm_show /root/Programm/1024768/xm_show.sh 1
 update-alternatives --set xm_show /root/Programm/1024768/xm_show.sh
 
 update-alternatives --install /usr/bin/ixion_ssh ixion_ssh /root/Programm/1024768/ixion_ssh.sh 1
