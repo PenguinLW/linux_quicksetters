@@ -1,4 +1,4 @@
-#chmod +x Programm/1024768/y5_unlock_screen.sh && . Programm/1024768/y5_unlock_screen.sh
+#chmod u+x Programm/1024768/xm_unlock_screen.sh && . Programm/1024768/xm_unlock_screen.sh
 adb -s 192.168.43.167 shell input keyevent 26
 
 #adb -s 192.168.43.167 shell input keyevent 66
