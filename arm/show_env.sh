@@ -4,6 +4,7 @@ uname -a
 du -hs *
 whoami
 uname -m #armv7l
+dpkg --print-architecture
 pwd
 lsblk
 fdisk -l
