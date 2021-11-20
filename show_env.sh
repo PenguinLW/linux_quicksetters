@@ -4,6 +4,7 @@ uname -a
 du -hs *
 whoami
 uname -m #x86_64
+dpkg --print-architecture
 pwd
 lsblk
 fdisk -l
