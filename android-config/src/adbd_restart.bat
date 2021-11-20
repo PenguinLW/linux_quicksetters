@@ -18,4 +18,10 @@ adb -s VUY9K19A15905715 shell setprop service.adb.tcp.port 5555
 adb -s VUY9K19A15905715 tcpip 5555
 adb -s 192.168.43.62 shell setprop service.adb.tcp.port 5555
 adb -s 192.168.43.62:5555 tcpip 5555
+
+
+adb -s CYAIIZROKJQWZHJZ shell setprop service.adb.tcp.port 5555
+adb -s CYAIIZROKJQWZHJZ tcpip 5555
+adb -s 192.168.43.167 shell setprop service.adb.tcp.port 5555
+adb -s 192.168.43.167 tcpip 5555
 exit
