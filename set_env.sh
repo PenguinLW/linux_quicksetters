@@ -36,7 +36,7 @@ sudo update-alternatives --install /usr/bin/huawei_show huawei_show /home/pengui
 sudo update-alternatives --set huawei_show /home/penguinl/Programm/1024768/huawei_show.sh
 sudo update-alternatives --install /usr/bin/y5_show y5_show /home/penguinl/Programm/1024768/y5_show.sh 1
 sudo update-alternatives --set y5_show /home/penguinl/Programm/1024768/y5_show.sh
-sudo update-alternatives --install /usr/bin/xm_show y5_show /home/penguinl/Programm/1024768/xm_show.sh 1
+sudo update-alternatives --install /usr/bin/xm_show xm_show /home/penguinl/Programm/1024768/xm_show.sh 1
 sudo update-alternatives --set xm_show /home/penguinl/Programm/1024768/xm_show.sh
 
 sudo update-alternatives --install /usr/bin/ixion_ssh ixion_ssh /home/penguinl/Programm/1024768/ixion_ssh.sh 1
