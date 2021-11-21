@@ -12,6 +12,9 @@ wget https://raw.githubusercontent.com/AllPlatform/Termux-RaspbianOS/master/inst
 
 wget https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf-lite.zip
 unzip 2021-10-30-raspios-bullseye-armhf-lite.zip #unzip ".zip" -d ""
+mkdir raspbian-fs
+mount -o loop 2021-10-30-raspios-bullseye-armhf-lite.img raspbian-fs
+ls -al raspbian-fs/
 
 nano install.sh
 ##put/replace link&&filename.archive in install.sh
