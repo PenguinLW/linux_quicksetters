@@ -18,6 +18,6 @@ export USER=root && vncserver ##export USER=root && vncserver -kill :1
 sudo raspi-config
 
 rm -fr vnc_restart.sh && echo "# chmod +x vnc_restart.sh && ./vnc_restart.sh #bash vnc_restart.sh
-rm -fr /tmp/.x*
+rm -fr /tmp/.X*
 export USER=root && vncserver -kill :1
 export USER=root && vncserver" >> vnc_restart.sh
