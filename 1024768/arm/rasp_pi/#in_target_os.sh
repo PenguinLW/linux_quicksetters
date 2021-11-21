@@ -16,3 +16,7 @@ sudo apt-get install tightvncserver -y
 sudo apt-get install firefox-esr -y
 export USER=root && vncserver ##export USER=root && vncserver -kill :1
 sudo raspi-config
+
+rm -fr vnc_restart.sh && echo "# chmod +x vnc_restart.sh && ./vnc_restart.sh #bash vnc_restart.sh
+export USER=root && vncserver -kill :1
+export USER=root && vncserver" >> vnc_restart.sh
