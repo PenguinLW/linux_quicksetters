@@ -12,3 +12,10 @@ vncserver -list
 192.168.43.223::5901
 vncserver -kill :*
 vncserver-stop
+
+
+rm -fr vnc_restart.sh && echo "# chmod +x vnc_restart.sh && ./vnc_restart.sh #bash vnc_restart.sh
+vncserver-stop
+vncserver -kill :*
+vncserver-start
+vncserver -list" >> vnc_restart.sh
