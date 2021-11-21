@@ -20,6 +20,6 @@ sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install raspberrypi-ui-mods -y
 sudo apt-get install lxterminal -y
 sudo apt-get install tightvncserver -y
-export USER=root
-vncserver
+export USER=root && vncserver
 sudo apt-get install firefox-esr -y
+sudo raspi-config
