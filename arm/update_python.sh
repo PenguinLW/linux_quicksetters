@@ -1,3 +1,4 @@
+#in target os
 #https://medium.com/@rajputankit22/upgrade-python-2-7-to-3-6-and-3-7-in-ubuntu-97d2727bf911
 #add-apt-repository ppa:deadsnakes/ppa
 #apt-get install python3.5 -y
