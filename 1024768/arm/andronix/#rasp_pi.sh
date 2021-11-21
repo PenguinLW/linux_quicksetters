@@ -11,6 +11,8 @@
 git clone https://github.com/AllPlatform/Termux-RaspbianOS #wget https://raw.githubusercontent.com/AllPlatform/Termux-RaspbianOS/master/install.sh
 ##put/replace link&&filename.archive in install.sh
 ./install.sh
+unset LD_PRELOAD
+./start-raspi.sh
 
 ##in target os
 sudo apt update -y && sudo apt upgrade -y
