@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/AllPlatform/Termux-RaspbianOS/master/inst
 wget https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf-lite.zip
 nano install.sh
 ##put/replace link&&filename.archive in install.sh
-./install.sh
+chmod u+x install.sh && ./install.sh
 unset LD_PRELOAD
 ./start-raspbian.sh
 
