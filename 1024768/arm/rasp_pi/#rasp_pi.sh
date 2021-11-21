@@ -23,9 +23,9 @@ nano start-raspbian.sh
 # command+=" -b /proc/self/fd/0:/dev/stdin"
 # command+=" -b /dev/urandom:/dev/random"
 # command+=" -b /proc/self/fd:/dev/fd"
-# command+=" -b /data/data/com.termux/files/home/rasp_bi/raspbian-fs/proc/fakethings/stat:/proc/stat"
-# command+=" -b /data/data/com.termux/files/home/rasp_bi/raspbian-fs/proc/fakethings/vmstat:/proc/vmstat"
-# command+=" -b /data/data/com.termux/files/home/rasp_bi/raspbian-fs/proc/fakethings/version:/proc/version"
+# command+=" -b /data/data/com.termux/files/home/rasp_pi/raspbian-fs/proc/fakethings/stat:/proc/stat"
+# command+=" -b /data/data/com.termux/files/home/rasp_pi/raspbian-fs/proc/fakethings/vmstat:/proc/vmstat"
+# command+=" -b /data/data/com.termux/files/home/rasp_pi/raspbian-fs/proc/fakethings/version:/proc/version"
 # ..
 # command+=" -b /sdcard"
 # ..
