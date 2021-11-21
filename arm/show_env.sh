@@ -18,6 +18,7 @@ cat /proc/meminfo
 vmstat
 top
 htop #apt install htop -y
+acpi -V #apt install acpi -y #apt install acpitool -y
 
 java -version
 javac -version
