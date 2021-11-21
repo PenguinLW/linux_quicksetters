@@ -8,6 +8,10 @@
 
 ##put/replace link&&filename.archive in install.sh
 
+#mkdir rasp_pi && cd rasp_pi
+git clone https://github.com/AllPlatform/Termux-RaspbianOS #wget https://raw.githubusercontent.com/AllPlatform/Termux-RaspbianOS/master/install.sh
+./install.sh
+
 ##in target os
 sudo apt update -y && sudo apt upgrade -y
 sudo apt-get update -y && sudo apt-get upgrade -y
