@@ -6,10 +6,10 @@
 ##https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf.zip
 ##https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf-full.zip
 
-##put/replace link&&filename.archive in install.sh
 
 #mkdir rasp_pi && cd rasp_pi
 git clone https://github.com/AllPlatform/Termux-RaspbianOS #wget https://raw.githubusercontent.com/AllPlatform/Termux-RaspbianOS/master/install.sh
+##put/replace link&&filename.archive in install.sh
 ./install.sh
 
 ##in target os
