@@ -13,7 +13,7 @@ sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install raspberrypi-ui-mods -y --fix-missing
 sudo apt-get install lxterminal -y
 sudo apt-get install tightvncserver -y
-sudo apt-get install firefox-esr -y
+sudo apt-get install firefox-esr -y #sudo apt-get remove firefox-esr -y
 export USER=root && vncserver ##export USER=root && vncserver -kill :1 ##Xvnc
 sudo raspi-config
 ln -s /sdcard/ Desktop/
@@ -29,4 +29,11 @@ export USER=root && vncserver" >> vnc_restart.sh
 #ls -al ../usr/share/lxpanel/
 #cd .config/lxpanel/LXDE-pi/panels/
 #curl -O https://gist.githubusercontent.com/ColinNg/9ed317308a9a0f75824f828e75c8469c/raw/a72176416201a0e6ebbce30608e6f7eceb379e0e/panel
-#sudo reboot
+##sudo reboot
+
+
+##https://www.fossmint.com/web-browsers-for-raspberry-pi/
+#sudo apt-get update
+#sudo apt-get dist-upgrade
+#sudo apt-get install rpi-chromium-mods -y
+#sudo apt-get install python-sense-emu python3-sense-emu -y
