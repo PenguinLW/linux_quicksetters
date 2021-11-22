@@ -11,6 +11,7 @@ nano install.sh
 chmod u+x install.sh && ./install.sh
 unset LD_PRELOAD
 
+#wget https://raw.githubusercontent.com/Kovalsky95/linux_quicksetters/master/1024768/arm/rasp_pi/start-raspbian.sh
 nano start-raspbian.sh
 # ..
 # command+=" --kill-on-exit"
