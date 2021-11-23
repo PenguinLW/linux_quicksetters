@@ -15,7 +15,7 @@ if [ "$first" != 1 ];then
 			echo -e "\e[1;31m You Should Use Termux arm For aarch64 \e[0m"; exit 1 ;;
 		esac
 		wget "http://downloads.raspberrypi.org/raspbian_lite/archive/2018-04-19-15:24/root.tar.xz" #p
-		#wget "http://downloads.raspberrypi.org/raspios_lite_armhf/archive/2021-11-08-07:44/root.tar.xz" #b
+		#wget "http://downloads.raspberrypi.org/raspios_lite_armhf/archive/2021-11-08-07:44/root.tar.xz" #"http://downloads.raspberrypi.org/raspios_lite_armhf/root.tar.xz" #b
 		#wget "http://downloads.raspberrypi.org/raspios_armhf/archive/2021-11-08-07:41/root.tar.xz" #l
 		#wget "http://downloads.raspberrypi.org/raspios_full_armhf/archive/2021-11-08-07:46/root.tar.xz" #g
 		#wget "http://downloads.raspberrypi.org/raspbian_full/archive/2020-02-14-13:51/root.tar.xz"#c
