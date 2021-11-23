@@ -23,6 +23,9 @@ rm -fr /tmp/.X*
 export USER=root && vncserver -kill :1
 export USER=root && vncserver" >> vnc_restart.sh
 
+rm -fr Desktop/vnc_stop.sh && echo "# chmod u+x vnc_stop.sh && ./vnc_stop.sh #bash vnc_stop.sh
+rm -fr /tmp/.X*
+export USER=root && vncserver -kill :1" >> Desktop/vnc_stop.sh
 
 ##https://qastack.ru/raspberrypi/9395/i-accidently-deleted-my-taskbar-how-do-i-get-it-back
 #ls -al .config/lxpanel/LXDE-pi/panels/
@@ -30,7 +33,6 @@ export USER=root && vncserver" >> vnc_restart.sh
 #cd .config/lxpanel/LXDE-pi/panels/
 #curl -O https://gist.githubusercontent.com/ColinNg/9ed317308a9a0f75824f828e75c8469c/raw/a72176416201a0e6ebbce30608e6f7eceb379e0e/panel
 ##sudo reboot
-
 
 ##https://www.fossmint.com/web-browsers-for-raspberry-pi/
 #sudo apt-get update
