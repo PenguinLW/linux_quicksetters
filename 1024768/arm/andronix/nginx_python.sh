@@ -1,5 +1,5 @@
 #in target os
-apt install nginx -y #nginx
+apt-get install nginx -y #nginx
 
 ##in venv
 . venv/bin/activate
