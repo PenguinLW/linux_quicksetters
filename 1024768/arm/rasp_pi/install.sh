@@ -57,6 +57,7 @@ command+=" -b $cur/$folder/proc/fakethings/version:/proc/version"
 #command+=" -b /data/data/com.termux/files/home:/root"
 ## uncomment the following line to mount /sdcard directly to / 
 command+=" -b /sdcard"
+command+=" -b /storage"
 command+=" -w /root"
 command+=" /usr/bin/env -i"
 command+=" MOZ_FAKE_NO_SANDBOX=1"
