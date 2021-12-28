@@ -7,6 +7,8 @@ apt install net-tools -y
 apt install cmake -y
 apt install libpq-dev -y #apt install libgnutls28-dev -y
 
+#setupcon
+
 vncserver-start
 vncserver -list
 192.168.43.223::5901
