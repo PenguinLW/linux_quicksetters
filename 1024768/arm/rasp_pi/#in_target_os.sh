@@ -24,9 +24,9 @@ rm -fr /tmp/.X*
 export USER=root && vncserver -kill :1
 export USER=root && vncserver" >> vnc_restart.sh
 
-rm -fr Desktop/vnc_stop.sh && echo "# chmod u+x vnc_stop.sh && ./vnc_stop.sh #bash vnc_stop.sh
+rm -fr desktop/vnc_stop.sh && echo "# chmod u+x vnc_stop.sh && ./vnc_stop.sh #bash vnc_stop.sh
 rm -fr /tmp/.X*
-export USER=root && vncserver -kill :1" >> Desktop/vnc_stop.sh
+export USER=root && vncserver -kill :1" >> desktop/vnc_stop.sh
 
 ##https://qastack.ru/raspberrypi/9395/i-accidently-deleted-my-taskbar-how-do-i-get-it-back
 #ls -al .config/lxpanel/LXDE-pi/panels/
