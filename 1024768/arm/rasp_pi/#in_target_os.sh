@@ -16,6 +16,7 @@ sudo apt-get install tightvncserver -y
 sudo apt-get install firefox-esr -y #sudo apt-get remove firefox-esr -y
 export USER=root && vncserver ##export USER=root && vncserver -kill :1 ##Xvnc
 sudo raspi-config
+cd ~/../ && ln -s /home/pi/ root
 cd ~/../home/pi/ && ln -s ~/../root/ && ln -s /data/data/com.termux/files/home/desktop/ desktop
 cd ~/../root/ && ln -s ~/../home/pi/ && ln -s /data/data/com.termux/files/home/desktop/ desktop && ln -s desktop/linux_quicksetters/ Programm
 
