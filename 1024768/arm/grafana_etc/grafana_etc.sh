@@ -42,8 +42,9 @@ sudo /bin/systemctl enable prometheus
 #service prometheus start
 ##
 
+#mkdir /opt/node_exporter/
 #cd ~/desktop/ && wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-armv7.tar.gz && cd ~ && tar xfz ~/desktop/*.tar.gz
-
+mv node_exp*/* /opt/node_exporter/
 useradd --no-create-home --shell /bin/false node_exporter
 
 nano /lib/systemd/system/node_exporter.service ##
@@ -52,3 +53,9 @@ nano /lib/systemd/system/node_exporter.service ##
 sudo /bin/systemctl enable node_exporter
 #service node_exporter enable
 #service node_exporter start
+##
+
+
+#cd ~/desktop/
+#ln -s /opt/node_exporter
+#ln -s /home/prometheus/prometheus
