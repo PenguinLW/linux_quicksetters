@@ -10,6 +10,7 @@
 ##in target os
 sudo apt update -y && sudo apt upgrade -y
 sudo apt-get update -y && sudo apt-get upgrade -y
+sudo apt-get install docker.io -y --fix-missing
 sudo apt-get install raspberrypi-ui-mods -y --fix-missing
 sudo apt-get install lxterminal -y
 sudo apt-get install tightvncserver -y
