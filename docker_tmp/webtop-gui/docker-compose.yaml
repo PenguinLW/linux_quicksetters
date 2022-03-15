@@ -1,0 +1,26 @@
+---
+version: "2.1"
+services:
+  webtop-gui:
+    image: webtop-gui
+    build: .
+    container_name: webtop-gui
+    privileged: true
+    security_opt:
+      - seccomp:unconfined #optional
+    environment:
+      - DISPLAY=host.docker.internal:0.0
+      - PUID=1000
+      - PGID=1000
+      - TZ=Russia/Irkutsk
+      - SUBFOLDER=/ #optional
+      - KEYBOARD=en-us-qwerty #optional
+    volumes:
+      - C:\Users\_penguinl\Desktop\COEO\tmp\webtop-gui\config:/config
+      - C:\Users\_penguinl\Desktop\COEO:/config/Desktop/COEO
+      #- /var/run/docker.sock:/var/run/docker.sock #optional
+    #ports:
+    #  - 3000:3000
+    shm_size: "2gb"
+    network_mode: host
+    #restart: unless-stopped
