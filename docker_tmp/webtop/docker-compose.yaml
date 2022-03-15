@@ -1,0 +1,25 @@
+---
+version: "2.1"
+services:
+  webtop:
+    #image: lscr.io/linuxserver/webtop:latest
+    #image: lscr.io/linuxserver/webtop:ubuntu-mate
+    image: ghcr.io/linuxserver/webtop:ubuntu-mate
+    container_name: webtop
+    privileged: true
+    security_opt:
+      - seccomp:unconfined #optional
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Russia/Irkutsk
+      - SUBFOLDER=/ #optional
+      - KEYBOARD=en-us-qwerty #optional
+    volumes:
+      - C:\Users\_penguinl\Desktop\COEO\tmp\webtop\config:/config
+      - C:\Users\_penguinl\Desktop\COEO:/config/Desktop/COEO
+      #- /var/run/docker.sock:/var/run/docker.sock #optional
+    ports:
+      - 3000:3000
+    shm_size: "2gb" #optional
+    restart: unless-stopped
