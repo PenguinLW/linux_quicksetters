@@ -16,8 +16,15 @@ services:
       - SUBFOLDER=/ #optional
       - KEYBOARD=en-us-qwerty #optional
     volumes:
-      - C:\Users\_penguinl\Desktop\COEO\tmp\webtop\config:/config
-      - C:\Users\_penguinl\Desktop\COEO:/config/Desktop/COEO
+      - C:\Users\_penguinl\Desktop\COEO\tmp\webtop\config:/home
+      - C:\Users\_penguinl\Desktop\COEO:/home/Desktop/COEO
+      - D:\:/home/Desktop/D
+      - E:\:/home/Desktop/E
+      - F:\:/home/Desktop/F
+      - G:\:/home/Desktop/G
+      - H:\:/home/Desktop/H
+      #- I:\:/media/I
+      - I:\:/home/Desktop/I
       #- /var/run/docker.sock:/var/run/docker.sock #optional
     ports:
       - 3000:3000
