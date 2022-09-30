@@ -1,5 +1,6 @@
 ##in terminal
 #pwd ##/mnt/expand/344285aa-2ac5-4197-9379-2344556789fd/user/0/jackpal.androidterm/app_HOME
+#ls -al /mnt/expand/d5d3a234-c687-4688-9464-4c8a36f65792/user/0/jackpal.androidterm/app_HOME/termux
 TPATH=/mnt/expand/9cb22acc-5b94-4337-a5d4-d79be552971f/user/0/jackpal.androidterm
 mkdir $TPATH/termux
 ## chmod 0711 $TPATH
