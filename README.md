@@ -11,18 +11,18 @@
 <details>
   <summary>####unix:</summary>
   <pre>
-    1024768/*.sh
-    1024768/*.py
-    1024768/arm/*.sh
-    1024768/exatorrent/*.sh
+      1024768/*.sh
+      1024768/*.py
+      1024768/arm/*.sh
+      1024768/exatorrent/*.sh
     exatorrent/*.sh
     arm/*.sh
     arm/arm_create/*.sh
-    android_config/create/*.sh
-    android_config/src/*.sh
-    android_config/arm/*.sh
-    android_config/arm/src/*.sh
-    update_upgrade_allp.sh - install all update, with sudo
+      android_config/create/*.sh
+      android_config/src/*.sh
+      android_config/arm/*.sh
+      android_config/arm/src/*.sh
+        update_upgrade_allp.sh - install all update, with sudo
     automount
     escritorio_get.sh
     unpack/*.sh
@@ -36,9 +36,9 @@
   <summary>####unix_dev:</summary>
   <pre>
     set_java/*
-    update_python.sh - change python version
-    which_pip_of_python_3.sh - get pip for python all version
-    python-telegram-bot.sh - install library for development, api telegram
+      update_python.sh - change python version
+      which_pip_of_python_3.sh - get pip for python all version
+      python-telegram-bot.sh - install library for development, api telegram
     Flask/*.sh
     pgadmin_python3.sh
     Kivy/*
@@ -53,7 +53,12 @@
     1024768/*.bat
     android_config/create/*.bat
     android_config/src/*.bat
-    ####not_unix_dev
+  </pre>
+</details>
+
+<details>
+  <summary>####not_unix_dev</summary>
+  <pre>
     Flask/*.bat
     Flask/*.txt
     PyTube/*.bat
