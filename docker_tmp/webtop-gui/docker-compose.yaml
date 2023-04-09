@@ -16,18 +16,12 @@ services:
       - SUBFOLDER=/ #optional
       - KEYBOARD=en-us-qwerty #optional
     volumes:
-      - C:\Users\_penguinl\Desktop\COEO\tmp\webtop-gui\config:/home
-      - C:\Users\_penguinl\Desktop\COEO:/home/Desktop/COEO
-      - D:\:/home/Desktop/D
-      - E:\:/home/Desktop/E
-      - F:\:/home/Desktop/F
-      - G:\:/home/Desktop/G
-      - H:\:/home/Desktop/H
-      #- I:\:/media/I
-      - I:\:/home/Desktop/I
+      - D:\COEO\docker_tmp\webtop-gui\config:/home
+      - D:\:/home/Desktop
       #- /var/run/docker.sock:/var/run/docker.sock #optional
     #ports:
     #  - 3000:3000
     shm_size: "2gb"
     network_mode: host
     #restart: unless-stopped
+    #command: pcmanfm & mate-terminal
