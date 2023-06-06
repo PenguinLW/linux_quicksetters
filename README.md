@@ -25,7 +25,6 @@
         update_upgrade_allp.sh - install all update, with sudo
     automount
     escritorio_get.sh
-    speedx/*.sh
     unpack/*.sh
     set_ttl/set_ttl.sh
     set_vpn.sh
