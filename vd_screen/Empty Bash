@@ -1,0 +1,6 @@
+#!/bin/bash
+pacman -Ss obs-studio
+
+sudo pacman -S obs-studio
+
+pamac build simplescreenrecorder
