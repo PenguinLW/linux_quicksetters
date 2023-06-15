@@ -1,5 +1,5 @@
 #!/bin/bash
-ulimit -Sv 5000000
+ulimit -Sv 7000000 #5000000
 ./exatorrent*linux*
 
 #ps -axuef exatorrent
