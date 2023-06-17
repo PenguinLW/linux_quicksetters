@@ -2,6 +2,7 @@
 #https://www.makeuseof.com/install-and-use-yay-arch-linux/
 pacman -Ss lutris
 sudo pacman -S lutris
+#or
 pamac build yay
 yay --version #yay searchterm
 yay -Ss heroic
