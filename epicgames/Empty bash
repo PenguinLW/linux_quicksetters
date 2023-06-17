@@ -1,0 +1,8 @@
+#https://www.makeuseof.com/install-epic-games-launcher-linux/
+#https://www.makeuseof.com/install-and-use-yay-arch-linux/
+pacman -Ss lutris
+sudo pacman -S lutris
+pamac build yay
+yay --version #yay searchterm
+yay -Ss heroic
+yay -S heroic
