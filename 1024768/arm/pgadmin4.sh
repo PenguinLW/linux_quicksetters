@@ -1,5 +1,5 @@
 ##in venv
-#echo {your_password} | sudo -S ls
+#echo {your_password} | sudo -S ls -al
 ##echo 0_penguinl | sudo -S ls
 ##echo 0_penguinl | sudo -S /root/pgadmin/bin/pgadmin4
 

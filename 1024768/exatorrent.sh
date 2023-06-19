@@ -2,5 +2,5 @@
 ulimit -Sv 7000000 #5000000
 ./exatorrent*linux*
 
-#ps -axuef exatorrent
+#ps -ax | grep exatorrent-linux-amd64 #ps -axuef exatorrent
 #killall exatorrent-linux-amd64
