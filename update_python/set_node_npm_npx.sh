@@ -2,8 +2,12 @@
 #https://danidudas.medium.com/how-to-install-node-js-and-npm-on-any-raspberry-pi-5a82acdfeefc
 
 pip3 install nodeenv
+
+#in current dir
 nodeenv nenv
-. nenv/bin/activate
+
+#cd ~ && ln -s /{path_to}/{cur_dir}/nenv
+source ~/nenv/bin/activate
 
 ##https://nodejs.org/en/download/current/
 #wget https://nodejs.org/dist/v16.9.1/node-v16.9.1-linux-x64.tar.xz --no-check-certificate
