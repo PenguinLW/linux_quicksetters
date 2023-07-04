@@ -18,3 +18,4 @@ nodeenv nenv
 
 #cd ~ && ln -s /{path_to}/{cur_dir}/nenv
 source ~/nenv/bin/activate
+which npm npx node
