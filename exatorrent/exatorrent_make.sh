@@ -1,4 +1,5 @@
 #in venv
+cd ~ #or in current dir
 git clone https://github.com/varbhat/exatorrent.git
 
 ##build in node (with auto)
@@ -23,6 +24,11 @@ make app #make web && make app
 ##build in go (manual)
 #env CGO_ENABLED=1 go build -trimpath -buildmode=pie -ldflags '-extldflags "-static -s -w"' -o  build/exatorrent exatorrent.go
 
-cd ..
-update-alternatives --install /usr/bin/exatorrent exatorrent /home/penguinl/exatorrent/build/exatorrent 1
-update-alternatives --set exatorrent /home/penguinl/exatorrent/build/exatorrent
+cd ~
+update-alternatives --install /usr/bin/exatorrent exatorrent ~/exatorrent/build/exatorrent 1
+update-alternatives --set exatorrent ~/exatorrent/build/exatorrent
+
+#or for manjaro, arch-based
+cd /usr/bin/
+sudo ln -s /{path_to}/{cur_dir}/exatorrent/build/exatorrent
+#chmod u+x /usr/bin/exatorrent
