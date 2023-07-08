@@ -12,6 +12,7 @@ pip list
 
 #for install something
 pip install nodeenv
+pip install python-dotenv
 
 #in current dir
 nodeenv nenv
