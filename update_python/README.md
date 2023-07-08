@@ -1,1 +1,0 @@
-/home/penguinl/PycharmProjects/linux_quicksetters/README.md
