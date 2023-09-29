@@ -8,3 +8,4 @@ for i in range(0, randint(0, 1000)):
 
 for i in swipe:
     os.system('{0:s}'.format(i))#os.system('{0:s} && {1:s}'.format(swipe[0], swipe[1]))
+    #subprocess.run(i, shell=True)
