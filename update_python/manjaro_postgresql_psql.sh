@@ -1,5 +1,6 @@
 #!/bin/bash
 
+##sudo pacman -Syyu
 sudo pacman -S postgresql
 #sudo systemctl is-active postgresql
 #sudo systemctl is-enabled postgresql
