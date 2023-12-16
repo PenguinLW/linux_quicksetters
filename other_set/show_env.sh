@@ -37,3 +37,4 @@ ls -al /etc/alternatives/
 
 cat /etc/profile
 inxi -G
+mhwd -li
