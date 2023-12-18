@@ -17,6 +17,9 @@ exit
 #in terminal
 sudo systemctl restart postgresql.service
 
+systemctl status postgresql.service
+journalctl -xeu postgresql.service
+
 #in pgadmin4: add server with custom name, "localhost" address, username "postgres", no password
 
 
