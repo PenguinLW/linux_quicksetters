@@ -10,8 +10,10 @@ sudo pacman -S postgresql
 
 ls -al  /var/cache/pacman/pkg/postgresql-*
 ls -al  /var/cache/pacman/pkg/postgresql-libs-*
+ls -al  /var/cache/pacman/pkg/*icu*
 #sudo pacman -U postgresql-15.4-2-x86_64.pkg.tar
 #sudo pacman -U postgresql-libs-15.4-2-x86_64.pkg.tar
+#sudo pacman -U *icu*
 
 sudo -su postgres
 #in postgres, which this open
