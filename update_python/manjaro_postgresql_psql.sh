@@ -8,6 +8,11 @@ sudo pacman -S postgresql
 #sudo pg_isready
 #sudo -u postgres psql
 
+ls -al  /var/cache/pacman/pkg/postgresql-*
+ls -al  /var/cache/pacman/pkg/postgresql-libs-*
+#sudo pacman -U postgresql-15.4-2-x86_64.pkg.tar
+#sudo pacman -U postgresql-libs-15.4-2-x86_64.pkg.tar
+
 sudo -su postgres
 #in postgres, which this open
 initdb /var/lib/postgres/data
