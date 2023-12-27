@@ -9,6 +9,8 @@ sudo pacman -S postgresql
 #sudo pg_isready
 #sudo -u postgres psql
 
+#pg_ctl start -w -t 600
+#pg_ctl stop
 ls -al  /var/cache/pacman/pkg/postgresql-*
 ls -al  /var/cache/pacman/pkg/postgresql-libs-*
 ls -al  /var/cache/pacman/pkg/*icu*
