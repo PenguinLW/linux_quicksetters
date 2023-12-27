@@ -2,10 +2,24 @@ sudo mv /var/lib/postgres/data/data/ /var/lib/postgres/olddata/
 
 mkdir /var/lib/postgres/data/ /var/lib/postgres/tmp/
 
-chown postgres:postgres /var/lib/postgres/data/ /var/lib/postgres/tmp/ /var/lib/postgres/olddata/
+chown postgres:postgres /var/lib/postgres/data/ /var/lib/postgres/tmp/ /var/lib/postgres/olddata/ /usr/local/pgsql/bin/
+
+sudo chmod 0750 olddata #sudo chmod 0700 olddata
+sudo systemctl stop postgresql.service
 
 sudo -su postgres
 cd /var/lib/postgres/tmp
 initdb -D /var/lib/postgres/data --locale=C.UTF-8 --encoding=UTF8 --data-checksums #initdb /var/lib/postgres/data
 
-pg_upgrade -b /opt/pgsql-15/bin -B /usr/bin -d /var/lib/postgres/olddata -D /var/lib/postgres/data
+#install step-by-step from readme.md/install.txt
+#it's safety now, none conflict
+#https://www.postgresql.org/ftp/source/v15.4/
+
+pg_upgrade -b /usr/local/pgsql/bin -B /usr/bin -d /var/lib/postgres/olddata -D /var/lib/postgres/data
+
+/usr/local/pgsql/bin/pg_ctl -D /usr/local/pgsql/data -l logfile start
+
+/usr/bin/vacuumdb --all --analyze-in-stages
+
+exit
+#ALTER DATABASE template1 REFRESH COLLATION VERSION
