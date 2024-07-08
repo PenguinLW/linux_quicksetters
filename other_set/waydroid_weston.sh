@@ -15,4 +15,3 @@ weston
 
 #after running in terminal inside weston
 waydroid show-full-ui
-
