@@ -35,6 +35,7 @@ sudo pacman -S dnsutils
 # rutracker.org; version 4 - DEFAULT (enter); http, https, quick - YES; repeat each test - 5; standart - 2;
 # rutracker.org kinogo-net.la instagram.com spotify.com; version 4 - DEFAULT (enter); http, https, quick - YES; repeat each test - 5; standart - 2;
 # rutracker.org kinogo-net.la chatgpt.com youtube.com instagram.com spotify.com; version 4 - DEFAULT (enter); http, https, quick - YES; repeat each test - 7; standart - 3;
+# rutracker.org kinogo-net.la chatgpt.com youtube.com es.pornhub.com instagram.com spotify.com; version 4 - DEFAULT (enter); http, https, quick - YES; repeat each test - 7; standart - 3;
 
 ##ipv4 rutracker.org curl_test_https_tls12: #nfqws --dpi-desync=fake,split --dpi-desync-fooling=md5sig; nfqws --dpi-desync=fake,disorder2 --dpi-desync-ttl=1 --dpi-desync-autottl=3
 ./install-easy.sh
@@ -62,6 +63,8 @@ sudo pacman -S dnsutils
 #	ipv4 spotify.com curl_test_https_tls12 : working without bypass
 #	ipv4 spotify.com curl_test_http3 : working without bypass
 #results for (rutracker.org kinogo-net.la chatgpt.com youtube.com instagram.com spotify.com)
+
+#results for (rutracker.org kinogo-net.la chatgpt.com youtube.com es.pornhub.com instagram.com spotify.com)
 
 ./install_easy.sh
 #save original: NFQWS_OPT_DESYNC="--dpi-desync=fake --dpi-desync-ttl=0 --dpi-desync-ttl6=0 --dpi-desync-fooling=badsum"
