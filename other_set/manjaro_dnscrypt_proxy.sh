@@ -169,3 +169,14 @@ sudo pacman -S dnsutils
 #
 #	TPWS_OPT="--split-tls=sni"
 #
+
+
+sudo systemctl stop dnscrypt-proxy.service
+
+sudo systemctl stop systemd-resolved.service
+sudo systemctl disable dnscrypt-proxy.service
+
+sudo systemctl disable systemd-resolved.service
+
+
+sudo chattr -i /etc/resolv.conf
