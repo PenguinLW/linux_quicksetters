@@ -1,6 +1,6 @@
 ##https://forum.manjaro.org/t/how-to-install-run-waydroid-on-xfce-or-other-non-wayland-desktops/152925
 
-pamac build waydroid  waydroid-image-gapps
+pamac build waydroid waydroid-image-gapps
 
 sudo waydroid init
 #sudo waydroid init -s GAPPS
