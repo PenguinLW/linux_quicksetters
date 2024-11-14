@@ -2,6 +2,7 @@
 ##https://forum.garudalinux.org/t/ultimate-guide-to-install-waydroid-in-any-arch-based-distro-especially-garuda/15902
 ##https://waydro.id/#install
 ##https://wiki.archlinux.org/title/Waydroid
+##https://docs.waydro.id/faq/setting-up-a-shared-folder
 
 pamac build waydroid waydroid-image-gapps
 
