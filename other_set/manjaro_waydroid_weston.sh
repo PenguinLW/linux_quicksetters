@@ -1,4 +1,7 @@
 ##https://forum.manjaro.org/t/how-to-install-run-waydroid-on-xfce-or-other-non-wayland-desktops/152925
+##https://forum.garudalinux.org/t/ultimate-guide-to-install-waydroid-in-any-arch-based-distro-especially-garuda/15902
+##https://waydro.id/#install
+##https://wiki.archlinux.org/title/Waydroid
 
 pamac build waydroid waydroid-image-gapps
 
