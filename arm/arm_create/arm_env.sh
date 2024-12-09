@@ -4,6 +4,7 @@ apt upgrade -y && apt-get upgrade -y
 
 termux-setup-storage
 unset LD_PRELOAD
+ls -al storage
 
 apt install android-tools -y
 adb devices -l

@@ -1,9 +1,11 @@
+#in termux
 #apt install python-pip -y
 which python
 python -V
 which pip
 pip -V
 
+apt install which
 apt install python3-pip -y
 which python3
 python3 -V
