@@ -12,3 +12,12 @@ apt install wget openssl-tool proot -y && hash -r && wget https://raw.githubuser
 
 #update-alternatives --set arm_up /root/Programm/arm/arm_create/arm_up.sh
 ./start-ubuntu.sh
+
+##in target os
+cd ~
+mv .* ../home/
+cd ..
+mv root/ _root
+ln -s home/ root
+cd ~
+
