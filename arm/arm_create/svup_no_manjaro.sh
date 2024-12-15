@@ -40,6 +40,27 @@ ls -al ~/../usr/var/service/*/supervise/
 
 sv up ~/../usr/var/service/*/
 
-##nano ~/.bashrc
-echo 'clear ; cd ~ ; ./manjaro/start-ubuntu.sh' > ~/.bashrc
+#rm -fr ~/startup_command.sh
+echo 'sshd ; clear ; cd ~ ; ./manjaro/start-ubuntu.sh' > ~/startup_command.sh
+chmod u+x ~/startup_command.sh
+
+echo 'source ~/startup_command.sh' > ~/.bashrc
+source ~/.bashrc ##source ~/.zshrc
+
+######################################################################################################
+##in target os
+
+##write your commands (end of file)
+#nano ~/.bashrc
+
+##or
+#rm -fr ~/startup_command.sh
+echo 'adb kill-server && adb start-server' > ~/startup_command.sh
+echo 'adb connect 192.168.0.17' >> ~/startup_command.sh
+echo 'adb -s 192.168.0.17 tcpip 5555' >> ~/startup_command.sh
+echo 'adb devices -l' >> ~/startup_command.sh
+chmod u+x ~/startup_command.sh
+##and
+#nano ~/.bashrc
+echo 'source ~/startup_command.sh' >> ~/.bashrc
 source ~/.bashrc ##source ~/.zshrc
