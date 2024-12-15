@@ -59,6 +59,7 @@ echo 'adb kill-server && adb start-server' > ~/startup_command.sh
 echo 'adb connect 192.168.0.17' >> ~/startup_command.sh
 echo 'adb -s 192.168.0.17 tcpip 5555' >> ~/startup_command.sh
 echo 'adb devices -l' >> ~/startup_command.sh
+echo 'rm -fr /tmp/X1*' >> ~/startup_command.sh
 echo 'USER=_p vncserver -kill :1' >> ~/startup_command.sh
 echo 'USER=_p vncserver :1 -geometry 1920x1080 -depth 24' >> ~/startup_command.sh
 chmod u+x ~/startup_command.sh

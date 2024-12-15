@@ -22,4 +22,4 @@ ln -s home/ root
 cd ~
 apt update -y && apt-get update -y
 apt upgrade -y && apt-get upgrade -y
-apt-get install nano -y
+apt-get install nano nautilus gnome-terminal -y
