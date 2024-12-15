@@ -30,6 +30,3 @@ pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubus
 
 #de i3
 pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Manjaro/manjaro-i3.sh -O manjaro-i3.sh && chmod +x manjaro-i3.sh && bash manjaro-i3.sh
-
-
-
