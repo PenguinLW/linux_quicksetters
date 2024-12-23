@@ -41,7 +41,7 @@ ls -al ~/../usr/var/service/*/supervise/
 sv up ~/../usr/var/service/*/
 
 #rm -fr ~/startup_command.sh
-echo 'sshd ; clear ; cd ~ ; ./manjaro/start-ubuntu.sh' > ~/startup_command.sh
+echo 'sshd ; clear ; curl ifconfig.me ; echo ; cd ~ ; ./manjaro/start-ubuntu.sh' > ~/startup_command.sh
 chmod u+x ~/startup_command.sh
 
 echo 'source ~/startup_command.sh' > ~/.bashrc
@@ -62,6 +62,11 @@ echo 'adb devices -l' >> ~/startup_command.sh
 echo 'rm -fr /tmp/X1*' >> ~/startup_command.sh
 echo 'USER=_p vncserver -kill :1' >> ~/startup_command.sh
 echo 'USER=_p vncserver :1 -geometry 1920x1080 -depth 24' >> ~/startup_command.sh
+
+echo 'whoami' >> ~/startup_command.sh
+echo "ifconfig | grep 'inet ' | grep -v '192.168*' | awk '{print $2}'" >> ~/startup_command.sh
+echo 'curl ifconfig.me' >> ~/startup_command.sh
+echo 'echo' >> ~/startup_command.sh
 chmod u+x ~/startup_command.sh
 ##and
 #nano ~/.bashrc
