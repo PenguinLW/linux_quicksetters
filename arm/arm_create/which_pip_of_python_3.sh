@@ -14,3 +14,7 @@ pip3 -V
 
 #https://github.com/pypa/pip/issues/5599
 pip3 install --upgrade pip
+
+apt-get install python3-venv
+python3 -m venv venv
+#source ~/Programm/venv/bin/activate

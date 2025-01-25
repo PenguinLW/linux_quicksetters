@@ -22,7 +22,7 @@ ln -s home/ root
 cd ~
 apt update -y && apt-get update -y
 apt upgrade -y && apt-get upgrade -y
-apt-get install nano nautilus gnome-terminal nmap net-tools iproute2 zsh git -y #lsd vim 
+apt-get install nano nautilus gnome-terminal nmap net-tools iproute2 zsh git python3-venv -y #lsd vim
 usermod -aG sudo root
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
