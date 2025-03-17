@@ -2,3 +2,7 @@
 brew install qpdf
 curl ifconfig.me
 #109.163.217.14
+
+
+pip install --upgrade pip setuptools wheel
+pip install img2pdf Pillow opencv-contrib-python
