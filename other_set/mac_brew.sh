@@ -1,5 +1,9 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install qpdf
+
+echo "192.168.0.109 ppau1.com" | sudo tee -a /etc/hosts
+echo "192.168.0.110 ppau2.com" | sudo tee -a /etc/hosts
+sudo killall -HUP mDNSResponder
 curl ifconfig.me
 #109.163.217.14
 
