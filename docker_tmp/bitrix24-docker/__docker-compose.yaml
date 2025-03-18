@@ -1,0 +1,19 @@
+services:
+  web:
+    build: .
+    container_name: bitrix-web
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - ./web/html:/var/www/html
+      - ./php.ini:/usr/local/etc/php/conf.d/custom.ini
+    environment:
+      - MYSQL_HOST=bitrix-db
+      - MYSQL_DATABASE=bitrix
+      - MYSQL_USER=bitrix
+      - MYSQL_PASSWORD=bitrix_password
+    networks:
+      - bitrix-network
+    depends_on:
+      - db

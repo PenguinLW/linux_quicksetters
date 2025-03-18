@@ -1,0 +1,131 @@
+#version: '3'
+services:
+  web0:
+    image: "akopkesheshyan/bitrix24:latest"
+    ports:
+      - "80:80"
+      - "443:443"
+    cap_add:
+      - SYS_ADMIN
+    security_opt:
+      - seccomp:unconfined
+    privileged: true
+    volumes:
+      - ./web0:/home/bitrix/www/local
+    depends_on:
+      - mysql0
+    extra_hosts:
+      - "ppau0.com:127.0.0.1"
+
+  mysql0:
+    image: mariadb
+    healthcheck:
+      test: "/usr/bin/mysql --user=root --password=+Tr+()8]!szl[HQIsoT5 --execute \"SHOW DATABASES;\""
+      interval: 2s
+      timeout: 20s
+      retries: 10
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: +Tr+()8]!szl[HQIsoT5
+      MYSQL_DATABASE: sitemanager0
+      MYSQL_USER: bitrix0
+      MYSQL_PASSWORD: +Tr+()8]!szl[HQIsoT5
+    command: ['--character-set-server=utf8', '--collation-server=utf8_unicode_ci', '--skip-character-set-client-handshake', '--sql-mode=']
+
+  phpmyadmin0:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin0
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql0
+
+  web1:
+    image: "akopkesheshyan/bitrix24:latest"
+    ports:
+      - "8081:80"
+      - "8443:443"
+    cap_add:
+      - SYS_ADMIN
+    security_opt:
+      - seccomp:unconfined
+    privileged: true
+    volumes:
+      - ./web1:/home/bitrix/www/local
+    depends_on:
+      - mysql1
+    extra_hosts:
+      - "ppau1.com:127.0.0.1"
+
+  mysql1:
+    image: mariadb
+    healthcheck:
+      test: "/usr/bin/mysql --user=root --password=+Tr+()8]!szl[HQIsoT5 --execute \"SHOW DATABASES;\""
+      interval: 2s
+      timeout: 20s
+      retries: 10
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: +Tr+()8]!szl[HQIsoT5
+      MYSQL_DATABASE: sitemanager1
+      MYSQL_USER: bitrix1
+      MYSQL_PASSWORD: +Tr+()8]!szl[HQIsoT5
+    command: ['--character-set-server=utf8', '--collation-server=utf8_unicode_ci', '--skip-character-set-client-handshake', '--sql-mode=']
+
+  phpmyadmin1:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin1
+    restart: always
+    ports:
+      - "8082:80"
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql1
+
+  web2:
+    image: "akopkesheshyan/bitrix24:latest"
+    ports:
+      - "8083:80"
+      - "8444:443"
+    cap_add:
+      - SYS_ADMIN
+    security_opt:
+      - seccomp:unconfined
+    privileged: true
+    volumes:
+      - ./web2:/home/bitrix/www/local
+    depends_on:
+      - mysql2
+    extra_hosts:
+      - "ppau2.com:127.0.0.1"
+
+  mysql2:
+    image: mariadb
+    healthcheck:
+      test: "/usr/bin/mysql --user=root --password=+Tr+()8]!szl[HQIsoT5 --execute \"SHOW DATABASES;\""
+      interval: 2s
+      timeout: 20s
+      retries: 10
+    ports:
+      - "3308:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: +Tr+()8]!szl[HQIsoT5
+      MYSQL_DATABASE: sitemanager2
+      MYSQL_USER: bitrix2
+      MYSQL_PASSWORD: +Tr+()8]!szl[HQIsoT5
+    command: ['--character-set-server=utf8', '--collation-server=utf8_unicode_ci', '--skip-character-set-client-handshake', '--sql-mode=']
+
+  phpmyadmin2:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin2
+    restart: always
+    ports:
+      - "8084:80"
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql2
+

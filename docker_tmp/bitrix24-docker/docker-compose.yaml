@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: bitrix-web
+    restart: always
+    ports:
+      - "80:80"
+      - "2222:22"
+      - "443:443"
+    volumes:
+      - ./web/html:/var/www/html  # Веб-файлы
+      - ./php.ini:/usr/local/etc/php/conf.d/custom.ini
+      - ./web/apache-config:/etc/apache2/sites-available
+      - ./web/logs:/var/log/apache2  # Логи Apache
+    networks:
+      - bitrix-network
+    depends_on:
+      - db
+    command: >
+      bash -c "a2ensite ppau0.com.conf && apache2-foreground"
+
+  db:
+    image: mariadb:10.6
+    container_name: bitrix-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: bitrix
+      MYSQL_USER: bitrix
+      MYSQL_PASSWORD: bitrix_password
+    volumes:
+      - ./db-data:/var/lib/mysql  # Данные БД
+    networks:
+      - bitrix-network
+
+networks:
+  bitrix-network:
+    driver: bridge
