@@ -3,7 +3,15 @@ sudo systemctl enable --now docker
 sudo usermod -aG docker $USER  # Добавьте текущего пользователя в группу docker
 newgrp docker  # Обновите группу без перезагрузки
 
-echo "127.0.0.1 ppau0.com" | sudo tee -a /etc/hosts #nano /etc/hosts
+echo "127.0.0.1 ppau.com" | sudo tee -a /etc/hosts #nano /etc/hosts
+echo "192.168.0.20 ppau.com" | sudo tee -a /etc/hosts #nano /etc/hosts
+echo "192.168.0.20 ppau.com" | sudo tee -a /etc/hosts #nano /etc/hosts
+echo "192.168.0.20 ppau.com" | sudo tee -a /etc/hosts #nano /etc/hosts
+echo "192.168.0.21 ppau.com" | sudo tee -a /etc/hosts #nano /etc/hosts
+echo "192.168.0.106 ppau.com" | sudo tee -a /etc/hosts #nano /etc/hosts
+echo "192.168.0.107 ppau.com" | sudo tee -a /etc/hosts #nano /etc/hosts
+echo "192.168.0.110 ppau.com" | sudo tee -a /etc/hosts #nano /etc/hosts
+
 sudo systemctl restart systemd-resolved  # Для Manjaro
 sudo killall -HUP mDNSResponder #mac
 
@@ -11,6 +19,14 @@ mkdir bitrix24-docker && cd bitrix24-docker
 mkdir -p web/html
 mkdir -p web/apache-config
 mkdir -p web/logs db-data
+mkdir /var/www/html/razdel_0/
+mkdir /var/www/html/instructions/
+
+ls -al /var/www/html/.*php
+ls -al /var/www/html/crm/.*php
+ls -al /var/www/html/razdel_0/.*php
+ls -al /var/www/html/instructions/.*php
+
 
 touch web/apache-config/ppau0.com.conf
 touch docker-compose.yaml
@@ -37,7 +53,7 @@ docker-compose restart web
 #docker-compose down -v  # Удалите старые контейнеры и тома (если есть)
 #docker-compose build --no-cache
 #docker-compose up -d
+#docker-compose stop
 
 docker logs bitrix-web
 docker logs bitrix-db
-

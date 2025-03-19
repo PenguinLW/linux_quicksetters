@@ -1,6 +1,8 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install qpdf
-brew install docker-compose
+brew install docker docker-compose
+#brew uninstall docker docker-compose
+curl -O https://desktop.docker.com/mac/main/amd64/117440/Docker.dmg
 
 echo "192.168.0.109 ppau1.com" | sudo tee -a /etc/hosts
 echo "192.168.0.110 ppau2.com" | sudo tee -a /etc/hosts
@@ -12,3 +14,20 @@ python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip setuptools wheel
 pip install img2pdf Pillow opencv-contrib-python
+
+
+echo $SHELL
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+nano ~/.zshrc
+#ZSH_THEME="robbyrussell"
+#plugins=(git)
+source ~/.zshrc
+
+#or
+nano ~/.zshrc
+#autoload -Uz vcs_info
+#precmd() { vcs_info }
+#zstyle ':vcs_info:git:*' formats '%b %u%c'
+#setopt PROMPT_SUBST
+#PROMPT='%n@%m %~ ${vcs_info_msg_0_} $ '
+source ~/.zshrc
