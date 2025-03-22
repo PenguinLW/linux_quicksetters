@@ -15,6 +15,7 @@ pip3 install setuptools_rust
 #sudo pip3 install https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v4.26/pip/pgadmin4-4.26-py3-none-any.whl --ignore-installed
 #pip3 install https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v4.27/pip/pgadmin4-4.27-py3-none-any.whl --ignore-installed
 pip3 install https://files.pythonhosted.org/packages/07/3a/3c8befe563e42449b89040f4422087ff20a3bf96869eecad07f2e60ee36c/pgadmin4-5.4-py3-none-any.whl --ignore-installed
+
 #python3 ~/pgadmin4/lib/python3.8/site-packages/pgadmin4/pgAdmin4.py
 
 #for update command
@@ -27,3 +28,15 @@ which pgadmin4
 pgadmin4
 #http://127.0.0.1:5050
 #deactivate
+
+
+##in venv
+##https://wiki.archlinux.org/title/PostgreSQL#Upgrading_PostgreSQL
+##https://www.pgadmin.org/download/
+
+#systemctl status postgresql.service
+#journalctl -xeu postgresql.service
+
+#cat /var/lib/postgres/data/PG_VERSION
+#pip install https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v8.14/pip/pgadmin4-8.14-py3-none-any.whl
+pip3 install https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v8.14/pip/pgadmin4-8.14-py3-none-any.whl --ignore-installed

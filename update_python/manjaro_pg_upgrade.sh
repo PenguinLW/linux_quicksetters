@@ -1,14 +1,23 @@
-sudo mv /var/lib/postgres/data/data/ /var/lib/postgres/olddata/
+sudo ls -al /var/lib/postgres/olddata/ & sudo ls -al /var/lib/postgres/tmp/
+sudo rm -dfr /var/lib/postgres/olddata/ && sudo rm -dfr /var/lib/postgres/tmp/
 
-mkdir /var/lib/postgres/data/ /var/lib/postgres/tmp/
 
-chown postgres:postgres /var/lib/postgres/data/ /var/lib/postgres/tmp/ /var/lib/postgres/olddata/ /usr/local/pgsql/bin/
+sudo cp -R /var/lib/postgres/data-backup /var/lib/postgres/olddata/
+sudo ls -al /var/lib/postgres
 
-sudo chmod 0750 olddata #sudo chmod 0700 olddata
+#sudo mv /var/lib/postgres/data/data/ /var/lib/postgres/olddata/
+sudo mv /var/lib/postgres/data/ /var/lib/postgres/olddata/
+
+sudo mkdir /var/lib/postgres/data/ /var/lib/postgres/tmp/
+
+sudo chown postgres:postgres /var/lib/postgres/data/ /var/lib/postgres/tmp/ /var/lib/postgres/olddata/ /usr/local/pgsql/bin/
+
+sudo chmod 0750 /var/lib/postgres/olddata #sudo chmod 0750 olddata #sudo chmod 0700 olddata
 sudo systemctl stop postgresql.service
 
 sudo -su postgres
 cd /var/lib/postgres/tmp
+#pwd
 initdb -D /var/lib/postgres/data --locale=C.UTF-8 --encoding=UTF8 --data-checksums #initdb /var/lib/postgres/data
 
 #install step-by-step from readme.md/install.txt
