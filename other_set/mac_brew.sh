@@ -13,7 +13,7 @@ curl ifconfig.me
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip setuptools wheel
-pip install img2pdf Pillow opencv-contrib-python
+pip install img2pdf Pillow opencv-contrib-python buildozer cython nodeenv dotenv
 
 
 echo $SHELL
