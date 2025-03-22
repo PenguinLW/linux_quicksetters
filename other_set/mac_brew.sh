@@ -3,7 +3,7 @@ brew install qpdf
 brew install docker docker-compose
 #brew uninstall docker docker-compose
 curl -O https://desktop.docker.com/mac/main/amd64/117440/Docker.dmg
-curl -O https://dl.google.com/android/repository/commandlinetools-mac-6514223_latest.zip
+curl -O http://dl.google.com/android/repository/commandlinetools-mac-6514223_latest.zip
 
 echo "192.168.0.109 ppau1.com" | sudo tee -a /etc/hosts
 echo "192.168.0.110 ppau2.com" | sudo tee -a /etc/hosts
