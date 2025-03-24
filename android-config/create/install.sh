@@ -1,4 +1,5 @@
 #wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip
+#curl -O http://dl.google.com/android/repository/commandlinetools-mac-6514223_latest.zip
 cd .. && cd tools/tools/bin/
 ./sdkmanager --list
 ./sdkmanager "platform-tools" "platforms;android-23"
