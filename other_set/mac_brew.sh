@@ -1,6 +1,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install qpdf
-brew install docker docker-compose
+brew install docker docker-compose nginx
+brew services start nginx
 #brew uninstall docker docker-compose
 #brew install javacc
 curl -O https://desktop.docker.com/mac/main/amd64/117440/Docker.dmg
@@ -8,6 +9,10 @@ curl -O http://dl.google.com/android/repository/commandlinetools-mac-6514223_lat
 curl -O https://download.oracle.com/java/24/latest/jdk-24_macos-x64_bin.dmg
 #which java javac
 #java -version && java -version
+#nginx -v
+#nginx -V
+#nginx -t
+#nginx -s reload
 
 echo "192.168.0.109 ppau1.com" | sudo tee -a /etc/hosts
 echo "192.168.0.110 ppau2.com" | sudo tee -a /etc/hosts
@@ -18,7 +23,7 @@ curl ifconfig.me
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip setuptools wheel
-pip install img2pdf Pillow opencv-contrib-python buildozer cython nodeenv dotenv
+pip install img2pdf Pillow opencv-contrib-python buildozer cython nodeenv dotenv python-nginx fastapi uvicorn
 
 
 echo $SHELL
