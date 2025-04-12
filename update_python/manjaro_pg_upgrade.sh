@@ -32,3 +32,6 @@ pg_upgrade -b /usr/local/pgsql/bin -B /usr/bin -d /var/lib/postgres/olddata -D /
 
 exit
 #ALTER DATABASE template1 REFRESH COLLATION VERSION
+
+##in venv
+#pip install https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.2/pip/pgadmin4-9.2-py3-none-any.whl
