@@ -15,3 +15,32 @@ sudo curl -O aur.manjaro.org/packages-meta-ext-v1.json.gz
 
 cd ~
 sudo pamac build google-chrome --no-confirm
+
+
+
+
+
+
+
+
+
+sudo nano /etc/pacman.conf
+#[core]
+#Include = /etc/pacman.d/mirrorlist
+
+#[extra]
+#Include = /etc/pacman.d/mirrorlist
+
+sudo pacman -Syy
+##sudo reflector --country Russia --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
+
+sudo pacman -Scc
+sudo pacman -Rns $(pacman -Qtdq)
+
+
+sudo pacman -Syu
+
+##sudo nano /etc/pacman.d/mirrorlist
+#Server = https://mirror.yandex.ru/archlinux/$repo/os/$arch
+
+#sudo timedatectl set-ntp true
