@@ -20,3 +20,20 @@ sudo pacman -S snapd
 sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install blue-recorder
+
+
+
+#sudo mhwd -a pci nonfree 0300
+mhwd -li
+lspci | grep -E "VGA|3D"
+pacman -Q > packages.txt
+nvidia-smi
+#Загрузитесь в терминал (Ctrl+Alt+F2 на экране входа). Удалите новые драйверы: Это вернёт свободные драйверы (nouveau, amdgpu, intel).
+#sudo mhwd -r pci video-nvidia
+#sudo mhwd -i pci video-linux
+pacman -Ss nvidia
+#
+#
+#
+#
+#
