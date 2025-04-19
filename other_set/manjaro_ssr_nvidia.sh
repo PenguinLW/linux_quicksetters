@@ -13,6 +13,7 @@ pamac build simplescreenrecorder-git
 
 echo $XDG_SESSION_TYPE
 
+sudo pacman -S kooha
 sudo pacman -S wf-recorder
 sudo pacman -S obs-studio
 
