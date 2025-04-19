@@ -1,4 +1,5 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install xquartz
 brew install qpdf
 brew install docker docker-compose nginx
 brew services start nginx
@@ -23,8 +24,12 @@ curl ifconfig.me
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip setuptools wheel
-pip install img2pdf Pillow opencv-contrib-python buildozer cython nodeenv dotenv python-nginx fastapi uvicorn
-
+pip install img2pdf Pillow opencv-contrib-python buildozer cython nodeenv dotenv python-nginx fastapi uvicorn pandas openpyxl
+# Установите Python-библиотеки:
+pip install opencv-python mediapipe websockets
+mkdir live-art && cd live-art
+npm init -y
+npm install ws
 
 echo $SHELL
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
