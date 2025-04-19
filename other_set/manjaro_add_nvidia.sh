@@ -21,3 +21,16 @@ gedit ~/.xinitrc
 ##exec $(get_session)
 
 
+glxinfo | grep "OpenGL renderer"
+lspci -k | grep -EA3 'VGA|3D|Display'
+lspci | grep -E "VGA|3D"
+
+sudo pacman -S nvidia nvidia-utils nvidia-settings
+cat /var/log/pacman.log | grep "removed"
+#sudo pacman -S xorg xorg-xinit
+
+lsmod | grep -E 'nvidia|amdgpu|intel'
+
+sudo modprobe nvidia
+#sudo pacman -S picom
+pacman -Qtdq
