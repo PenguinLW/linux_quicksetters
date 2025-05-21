@@ -38,3 +38,5 @@ pacman -Ss nvidia
 #
 #
 #
+sudo pacman -S cmake
+yay -S simplescreenrecorder
