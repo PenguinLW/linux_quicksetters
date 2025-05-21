@@ -48,3 +48,4 @@ sudo snap install bitrix --beta
 sudo snap install bitrix --edge
 sudo snap install simplescreenrecorder
 sudo snap install firefox
+
