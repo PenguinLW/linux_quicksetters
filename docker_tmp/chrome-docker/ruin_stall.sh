@@ -9,6 +9,9 @@ python test_bitrix24.py
 docker-compose logs chrome
 docker-compose logs chrome-browser
 
+docker --version
+docker-compose --version
+
 sudo systemctl status docker
 sudo systemctl start docker
 sudo systemctl enable docker
