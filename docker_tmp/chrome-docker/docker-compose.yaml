@@ -1,0 +1,17 @@
+services:
+  chrome:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chrome-browser
+    ports:
+      - "5900:5900"  # VNC port for GUI
+      - "9222:9222"  # Port for Chrome remote debugging
+    volumes:
+      - chrome-data:/home/chromeuser
+    environment:
+      - DISPLAY=:99
+    restart: unless-stopped
+
+volumes:
+  chrome-data:
