@@ -22,4 +22,6 @@ sudo systemctl restart docker
 sudo setenforce 0
 docker-compose build --no-cache
 docker-compose up -d
+sudo usermod -aG docker $USER
+systemctl list-units --type=service | grep docker
 
