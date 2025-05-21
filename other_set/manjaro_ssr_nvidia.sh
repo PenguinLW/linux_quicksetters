@@ -40,3 +40,11 @@ pacman -Ss nvidia
 #
 sudo pacman -S cmake
 yay -S simplescreenrecorder
+#
+sudo pacman -S snapd
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install bitrix --beta
+sudo snap install bitrix --edge
+sudo snap install simplescreenrecorder
+sudo snap install firefox
