@@ -5,6 +5,8 @@ brew install docker docker-compose nginx
 brew services start nginx
 #brew uninstall docker docker-compose
 #brew install javacc
+#brew install google-chrome #brew update google-chrome #brew upgrade google-chrome
+google-chrome-stable --version
 curl -O https://desktop.docker.com/mac/main/amd64/117440/Docker.dmg
 curl -O http://dl.google.com/android/repository/commandlinetools-mac-6514223_latest.zip
 curl -O https://download.oracle.com/java/24/latest/jdk-24_macos-x64_bin.dmg
